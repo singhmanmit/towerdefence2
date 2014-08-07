@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 2e07aa4459b67994c90fba0cc729c24c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: group93_JC_Window_Metal_Double_Large pCube258
+    100002: group93_JC_Window_Metal_Double_Large pCube259
+    100004: group93_JC_Window_Metal_Double_Large pCube260
+    100006: group93_JC_Window_Metal_Double_Large pCube261
+    100008: group93_JC_Window_Metal_Double_Large pCube262
+    100010: group93_JC_Window_Metal_Double_Large pCube263
+    100012: group93_JC_Window_Metal_Double_Large pCube264
+    100014: group93_JC_Window_Metal_Double_Large pCube265
+    100016: group93_JC_Window_Metal_Double_Large pCube266
+    100018: //RootNode
+    100020: JC_Window_Metal_Double_Large_group88 pCube254
+    100022: JC_Window_Metal_Double_Large_group88 pCube259
+    100024: JC_Window_Metal_Double_Large_group88 pCube260
+    100026: JC_Window_Metal_Double_Large_group88 pCube261
+    100028: JC_Window_Metal_Double_Large_group88 pCube262
+    100030: JC_Window_Metal_Double_Large_group88 pCube263
+    100032: JC_Window_Metal_Double_Large_group88 pCube264
+    100034: JC_Window_Metal_Double_Large_group88 pCube265
+    100036: JC_Window_Metal_Double_Large_group88 pCube266
+    100038: JC_Window_Metal_Double_Large_group92 pCube256
+    100040: JC_Window_Metal_Double_Large_group92 pCube259
+    100042: JC_Window_Metal_Double_Large_group92 pCube260
+    100044: JC_Window_Metal_Double_Large_group92 pCube261
+    100046: JC_Window_Metal_Double_Large_group92 pCube262
+    100048: JC_Window_Metal_Double_Large_group92 pCube263
+    100050: JC_Window_Metal_Double_Large_group92 pCube264
+    100052: JC_Window_Metal_Double_Large_group92 pCube265
+    100054: JC_Window_Metal_Double_Large_group92 pCube266
+    100056: JC_Window_Metal_Double_Large_pCube253
+    100058: JC_Window_Metal_Double_Large_pCube258 group88
+    100060: JC_Window_Metal_Double_Large_pCube258 group92
+    100062: pCube257_group93 JC_Window_Metal_Double_Large
+    400000: group93_JC_Window_Metal_Double_Large pCube258
+    400002: group93_JC_Window_Metal_Double_Large pCube259
+    400004: group93_JC_Window_Metal_Double_Large pCube260
+    400006: group93_JC_Window_Metal_Double_Large pCube261
+    400008: group93_JC_Window_Metal_Double_Large pCube262
+    400010: group93_JC_Window_Metal_Double_Large pCube263
+    400012: group93_JC_Window_Metal_Double_Large pCube264
+    400014: group93_JC_Window_Metal_Double_Large pCube265
+    400016: group93_JC_Window_Metal_Double_Large pCube266
+    400018: //RootNode
+    400020: JC_Window_Metal_Double_Large_group88 pCube254
+    400022: JC_Window_Metal_Double_Large_group88 pCube259
+    400024: JC_Window_Metal_Double_Large_group88 pCube260
+    400026: JC_Window_Metal_Double_Large_group88 pCube261
+    400028: JC_Window_Metal_Double_Large_group88 pCube262
+    400030: JC_Window_Metal_Double_Large_group88 pCube263
+    400032: JC_Window_Metal_Double_Large_group88 pCube264
+    400034: JC_Window_Metal_Double_Large_group88 pCube265
+    400036: JC_Window_Metal_Double_Large_group88 pCube266
+    400038: JC_Window_Metal_Double_Large_group92 pCube256
+    400040: JC_Window_Metal_Double_Large_group92 pCube259
+    400042: JC_Window_Metal_Double_Large_group92 pCube260
+    400044: JC_Window_Metal_Double_Large_group92 pCube261
+    400046: JC_Window_Metal_Double_Large_group92 pCube262
+    400048: JC_Window_Metal_Double_Large_group92 pCube263
+    400050: JC_Window_Metal_Double_Large_group92 pCube264
+    400052: JC_Window_Metal_Double_Large_group92 pCube265
+    400054: JC_Window_Metal_Double_Large_group92 pCube266
+    400056: JC_Window_Metal_Double_Large_pCube253
+    400058: JC_Window_Metal_Double_Large_pCube258 group88
+    400060: JC_Window_Metal_Double_Large_pCube258 group92
+    400062: pCube257_group93 JC_Window_Metal_Double_Large
+    2300000: group93_JC_Window_Metal_Double_Large pCube258
+    2300002: group93_JC_Window_Metal_Double_Large pCube259
+    2300004: group93_JC_Window_Metal_Double_Large pCube260
+    2300006: group93_JC_Window_Metal_Double_Large pCube261
+    2300008: group93_JC_Window_Metal_Double_Large pCube262
+    2300010: group93_JC_Window_Metal_Double_Large pCube263
+    2300012: group93_JC_Window_Metal_Double_Large pCube264
+    2300014: group93_JC_Window_Metal_Double_Large pCube265
+    2300016: group93_JC_Window_Metal_Double_Large pCube266
+    2300018: JC_Window_Metal_Double_Large_group88 pCube254
+    2300020: JC_Window_Metal_Double_Large_group88 pCube259
+    2300022: JC_Window_Metal_Double_Large_group88 pCube260
+    2300024: JC_Window_Metal_Double_Large_group88 pCube261
+    2300026: JC_Window_Metal_Double_Large_group88 pCube262
+    2300028: JC_Window_Metal_Double_Large_group88 pCube263
+    2300030: JC_Window_Metal_Double_Large_group88 pCube264
+    2300032: JC_Window_Metal_Double_Large_group88 pCube265
+    2300034: JC_Window_Metal_Double_Large_group88 pCube266
+    2300036: JC_Window_Metal_Double_Large_group92 pCube256
+    2300038: JC_Window_Metal_Double_Large_group92 pCube259
+    2300040: JC_Window_Metal_Double_Large_group92 pCube260
+    2300042: JC_Window_Metal_Double_Large_group92 pCube261
+    2300044: JC_Window_Metal_Double_Large_group92 pCube262
+    2300046: JC_Window_Metal_Double_Large_group92 pCube263
+    2300048: JC_Window_Metal_Double_Large_group92 pCube264
+    2300050: JC_Window_Metal_Double_Large_group92 pCube265
+    2300052: JC_Window_Metal_Double_Large_group92 pCube266
+    2300054: JC_Window_Metal_Double_Large_pCube253
+    2300056: JC_Window_Metal_Double_Large_pCube258 group88
+    2300058: JC_Window_Metal_Double_Large_pCube258 group92
+    2300060: pCube257_group93 JC_Window_Metal_Double_Large
+    3300000: group93_JC_Window_Metal_Double_Large pCube258
+    3300002: group93_JC_Window_Metal_Double_Large pCube259
+    3300004: group93_JC_Window_Metal_Double_Large pCube260
+    3300006: group93_JC_Window_Metal_Double_Large pCube261
+    3300008: group93_JC_Window_Metal_Double_Large pCube262
+    3300010: group93_JC_Window_Metal_Double_Large pCube263
+    3300012: group93_JC_Window_Metal_Double_Large pCube264
+    3300014: group93_JC_Window_Metal_Double_Large pCube265
+    3300016: group93_JC_Window_Metal_Double_Large pCube266
+    3300018: JC_Window_Metal_Double_Large_group88 pCube254
+    3300020: JC_Window_Metal_Double_Large_group88 pCube259
+    3300022: JC_Window_Metal_Double_Large_group88 pCube260
+    3300024: JC_Window_Metal_Double_Large_group88 pCube261
+    3300026: JC_Window_Metal_Double_Large_group88 pCube262
+    3300028: JC_Window_Metal_Double_Large_group88 pCube263
+    3300030: JC_Window_Metal_Double_Large_group88 pCube264
+    3300032: JC_Window_Metal_Double_Large_group88 pCube265
+    3300034: JC_Window_Metal_Double_Large_group88 pCube266
+    3300036: JC_Window_Metal_Double_Large_group92 pCube256
+    3300038: JC_Window_Metal_Double_Large_group92 pCube259
+    3300040: JC_Window_Metal_Double_Large_group92 pCube260
+    3300042: JC_Window_Metal_Double_Large_group92 pCube261
+    3300044: JC_Window_Metal_Double_Large_group92 pCube262
+    3300046: JC_Window_Metal_Double_Large_group92 pCube263
+    3300048: JC_Window_Metal_Double_Large_group92 pCube264
+    3300050: JC_Window_Metal_Double_Large_group92 pCube265
+    3300052: JC_Window_Metal_Double_Large_group92 pCube266
+    3300054: JC_Window_Metal_Double_Large_pCube253
+    3300056: JC_Window_Metal_Double_Large_pCube258 group88
+    3300058: JC_Window_Metal_Double_Large_pCube258 group92
+    3300060: pCube257_group93 JC_Window_Metal_Double_Large
+    4300000: group93_JC_Window_Metal_Double_Large pCube258
+    4300002: group93_JC_Window_Metal_Double_Large pCube259
+    4300004: group93_JC_Window_Metal_Double_Large pCube260
+    4300006: group93_JC_Window_Metal_Double_Large pCube261
+    4300008: group93_JC_Window_Metal_Double_Large pCube262
+    4300010: group93_JC_Window_Metal_Double_Large pCube263
+    4300012: group93_JC_Window_Metal_Double_Large pCube264
+    4300014: group93_JC_Window_Metal_Double_Large pCube265
+    4300016: group93_JC_Window_Metal_Double_Large pCube266
+    4300018: JC_Window_Metal_Double_Large_group88 pCube254
+    4300020: JC_Window_Metal_Double_Large_group88 pCube259
+    4300022: JC_Window_Metal_Double_Large_group88 pCube260
+    4300024: JC_Window_Metal_Double_Large_group88 pCube261
+    4300026: JC_Window_Metal_Double_Large_group88 pCube262
+    4300028: JC_Window_Metal_Double_Large_group88 pCube263
+    4300030: JC_Window_Metal_Double_Large_group88 pCube264
+    4300032: JC_Window_Metal_Double_Large_group88 pCube265
+    4300034: JC_Window_Metal_Double_Large_group88 pCube266
+    4300036: JC_Window_Metal_Double_Large_group92 pCube256
+    4300038: JC_Window_Metal_Double_Large_group92 pCube259
+    4300040: JC_Window_Metal_Double_Large_group92 pCube260
+    4300042: JC_Window_Metal_Double_Large_group92 pCube261
+    4300044: JC_Window_Metal_Double_Large_group92 pCube262
+    4300046: JC_Window_Metal_Double_Large_group92 pCube263
+    4300048: JC_Window_Metal_Double_Large_group92 pCube264
+    4300050: JC_Window_Metal_Double_Large_group92 pCube265
+    4300052: JC_Window_Metal_Double_Large_group92 pCube266
+    4300054: JC_Window_Metal_Double_Large_pCube253
+    4300056: JC_Window_Metal_Double_Large_pCube258 group88
+    4300058: JC_Window_Metal_Double_Large_pCube258 group92
+    4300060: pCube257_group93 JC_Window_Metal_Double_Large
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

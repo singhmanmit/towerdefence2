@@ -1,0 +1,106 @@
+fileFormatVersion: 2
+guid: f84a99d38d096cc478c309498b6c9e88
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: JC_WallLight_Small_pCube304
+    100004: JC_WallLight_Small_pCube305
+    100006: JC_WallLight_Small_pCube306
+    100008: JC_WallLight_Small_pCube307
+    100010: JC_WallLight_Small_pCube308
+    100012: JC_WallLight_Small_pCube309
+    100014: JC_WallLight_Small_pCube310
+    100016: JC_WallLight_Small_pCube311
+    100018: pCube303_JC_WallLight_Small
+    400000: //RootNode
+    400002: JC_WallLight_Small_pCube304
+    400004: JC_WallLight_Small_pCube305
+    400006: JC_WallLight_Small_pCube306
+    400008: JC_WallLight_Small_pCube307
+    400010: JC_WallLight_Small_pCube308
+    400012: JC_WallLight_Small_pCube309
+    400014: JC_WallLight_Small_pCube310
+    400016: JC_WallLight_Small_pCube311
+    400018: pCube303_JC_WallLight_Small
+    2300000: JC_WallLight_Small_pCube304
+    2300002: JC_WallLight_Small_pCube305
+    2300004: JC_WallLight_Small_pCube306
+    2300006: JC_WallLight_Small_pCube307
+    2300008: JC_WallLight_Small_pCube308
+    2300010: JC_WallLight_Small_pCube309
+    2300012: JC_WallLight_Small_pCube310
+    2300014: JC_WallLight_Small_pCube311
+    2300016: pCube303_JC_WallLight_Small
+    3300000: JC_WallLight_Small_pCube304
+    3300002: JC_WallLight_Small_pCube305
+    3300004: JC_WallLight_Small_pCube306
+    3300006: JC_WallLight_Small_pCube307
+    3300008: JC_WallLight_Small_pCube308
+    3300010: JC_WallLight_Small_pCube309
+    3300012: JC_WallLight_Small_pCube310
+    3300014: JC_WallLight_Small_pCube311
+    3300016: pCube303_JC_WallLight_Small
+    4300000: JC_WallLight_Small_pCube304
+    4300002: JC_WallLight_Small_pCube305
+    4300004: JC_WallLight_Small_pCube306
+    4300006: JC_WallLight_Small_pCube307
+    4300008: JC_WallLight_Small_pCube308
+    4300010: JC_WallLight_Small_pCube309
+    4300012: JC_WallLight_Small_pCube310
+    4300014: JC_WallLight_Small_pCube311
+    4300016: pCube303_JC_WallLight_Small
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

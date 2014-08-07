@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: c360fafc04970ef4899fdd81117bb20d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: swing_01_swing_set_01_aaa_1 chain_link_033
+    100002: swing_01_swing_set_01_aaa_1 chain_link_034
+    100004: swing_01_swing_set_01_aaa_1 chain_link_035
+    100006: swing_01_swing_set_01_aaa_1 chain_link_036
+    100008: swing_01_swing_set_01_aaa_1 chain_link_037
+    100010: swing_01_swing_set_01_aaa_1 chain_link_038
+    100012: swing_01_swing_set_01_aaa_1 chain_link_039
+    100014: swing_01_swing_set_01_aaa_1 chain_link_040
+    100016: swing_01_swing_set_01_aaa_1 chain_link_041
+    100018: swing_01_swing_set_01_aaa_1 chain_link_042
+    100020: swing_01_swing_set_01_aaa_1 chain_link_043
+    100022: swing_01_swing_set_01_aaa_1 chain_link_044
+    100024: swing_01_swing_set_01_aaa_1 chain_link_045
+    100026: swing_01_swing_set_01_aaa_1 chain_link_046
+    100028: swing_01_swing_set_01_aaa_1 chain_link_047
+    100030: swing_01_swing_set_01_aaa_1 chain_link_048
+    100032: swing_01_swing_set_01_aaa_1 chain_link_049
+    100034: swing_01_swing_set_01_aaa_1 chain_link_050
+    100036: swing_01_swing_set_01_aaa_1 chain_link_051
+    100038: swing_01_swing_set_01_aaa_1 chain_link_052
+    100040: swing_01_swing_set_01_aaa_1 chain_link_053
+    100042: swing_01_swing_set_01_aaa_1 chain_link_054
+    100044: swing_01_swing_set_01_aaa_1 chain_link_055
+    100046: swing_01_swing_set_01_aaa_1 chain_link_056
+    100048: swing_01_swing_set_01_aaa_1 chain_link_057
+    100050: swing_01_swing_set_01_aaa_1 chain_link_058
+    100052: swing_01_swing_set_01_aaa_1 chain_link_059
+    100054: swing_01_swing_set_01_aaa_1 chain_link_060
+    100056: swing_01_swing_set_01_aaa_1 chain_link_061
+    100058: swing_01_swing_set_01_aaa_1 chain_link_062
+    100060: swing_01_swing_set_01_aaa_1 chain_link_063
+    100062: swing_01_swing_set_01_aaa_1 chain_link_064
+    100064: swing_01_swing_set_01_aaa_1 swing_holder_02
+    100066: swing_01_swing_set_01_aaa_1 swing_seat_02
+    100068: swing_01_swing_set_01_aaa_1 swing_seat_connector_03
+    100070: swing_01_swing_set_01_aaa_1 swing_seat_connector_04
+    100072: swing_holder_01_swing_01 swing_set_01_aaa_1
+    100074: //RootNode
+    100076: swing_set_01_aaa_1_pCube1 swing_holder_01
+    100078: swing_set_01_aaa_1_swing_02 chain_link_01
+    100080: swing_set_01_aaa_1_swing_02 chain_link_010
+    100082: swing_set_01_aaa_1_swing_02 chain_link_011
+    100084: swing_set_01_aaa_1_swing_02 chain_link_012
+    100086: swing_set_01_aaa_1_swing_02 chain_link_013
+    100088: swing_set_01_aaa_1_swing_02 chain_link_014
+    100090: swing_set_01_aaa_1_swing_02 chain_link_015
+    100092: swing_set_01_aaa_1_swing_02 chain_link_016
+    100094: swing_set_01_aaa_1_swing_02 chain_link_017
+    100096: swing_set_01_aaa_1_swing_02 chain_link_018
+    100098: swing_set_01_aaa_1_swing_02 chain_link_019
+    100100: swing_set_01_aaa_1_swing_02 chain_link_02
+    100102: swing_set_01_aaa_1_swing_02 chain_link_020
+    100104: swing_set_01_aaa_1_swing_02 chain_link_021
+    100106: swing_set_01_aaa_1_swing_02 chain_link_022
+    100108: swing_set_01_aaa_1_swing_02 chain_link_023
+    100110: swing_set_01_aaa_1_swing_02 chain_link_024
+    100112: swing_set_01_aaa_1_swing_02 chain_link_025
+    100114: swing_set_01_aaa_1_swing_02 chain_link_026
+    100116: swing_set_01_aaa_1_swing_02 chain_link_027
+    100118: swing_set_01_aaa_1_swing_02 chain_link_028
+    100120: swing_set_01_aaa_1_swing_02 chain_link_029
+    100122: swing_set_01_aaa_1_swing_02 chain_link_03
+    100124: swing_set_01_aaa_1_swing_02 chain_link_030
+    100126: swing_set_01_aaa_1_swing_02 chain_link_031
+    100128: swing_set_01_aaa_1_swing_02 chain_link_032
+    100130: swing_set_01_aaa_1_swing_02 chain_link_04
+    100132: swing_set_01_aaa_1_swing_02 chain_link_05
+    100134: swing_set_01_aaa_1_swing_02 chain_link_06
+    100136: swing_set_01_aaa_1_swing_02 chain_link_07
+    100138: swing_set_01_aaa_1_swing_02 chain_link_08
+    100140: swing_set_01_aaa_1_swing_02 chain_link_09
+    100142: swing_set_01_aaa_1_swing_02 swing_holder_04
+    100144: swing_set_01_aaa_1_swing_02 swing_seat_01
+    100146: swing_set_01_aaa_1_swing_02 swing_seat_connector_01
+    100148: swing_set_01_aaa_1_swing_02 swing_seat_connector_02
+    100150: swing_set_01_aaa_1_swing_holder_01 swing_leg_01
+    100152: swing_set_01_aaa_1_swing_holder_01 swing_leg_02
+    100154: swing_set_01_aaa_1_swing_holder_01 swing_leg_03
+    100156: swing_set_01_aaa_1_swing_holder_01 swing_leg_04
+    100158: swing_set_01_aaa_1_swing_holder_03 swing_02
+    400000: swing_01_swing_set_01_aaa_1 chain_link_033
+    400002: swing_01_swing_set_01_aaa_1 chain_link_034
+    400004: swing_01_swing_set_01_aaa_1 chain_link_035
+    400006: swing_01_swing_set_01_aaa_1 chain_link_036
+    400008: swing_01_swing_set_01_aaa_1 chain_link_037
+    400010: swing_01_swing_set_01_aaa_1 chain_link_038
+    400012: swing_01_swing_set_01_aaa_1 chain_link_039
+    400014: swing_01_swing_set_01_aaa_1 chain_link_040
+    400016: swing_01_swing_set_01_aaa_1 chain_link_041
+    400018: swing_01_swing_set_01_aaa_1 chain_link_042
+    400020: swing_01_swing_set_01_aaa_1 chain_link_043
+    400022: swing_01_swing_set_01_aaa_1 chain_link_044
+    400024: swing_01_swing_set_01_aaa_1 chain_link_045
+    400026: swing_01_swing_set_01_aaa_1 chain_link_046
+    400028: swing_01_swing_set_01_aaa_1 chain_link_047
+    400030: swing_01_swing_set_01_aaa_1 chain_link_048
+    400032: swing_01_swing_set_01_aaa_1 chain_link_049
+    400034: swing_01_swing_set_01_aaa_1 chain_link_050
+    400036: swing_01_swing_set_01_aaa_1 chain_link_051
+    400038: swing_01_swing_set_01_aaa_1 chain_link_052
+    400040: swing_01_swing_set_01_aaa_1 chain_link_053
+    400042: swing_01_swing_set_01_aaa_1 chain_link_054
+    400044: swing_01_swing_set_01_aaa_1 chain_link_055
+    400046: swing_01_swing_set_01_aaa_1 chain_link_056
+    400048: swing_01_swing_set_01_aaa_1 chain_link_057
+    400050: swing_01_swing_set_01_aaa_1 chain_link_058
+    400052: swing_01_swing_set_01_aaa_1 chain_link_059
+    400054: swing_01_swing_set_01_aaa_1 chain_link_060
+    400056: swing_01_swing_set_01_aaa_1 chain_link_061
+    400058: swing_01_swing_set_01_aaa_1 chain_link_062
+    400060: swing_01_swing_set_01_aaa_1 chain_link_063
+    400062: swing_01_swing_set_01_aaa_1 chain_link_064
+    400064: swing_01_swing_set_01_aaa_1 swing_holder_02
+    400066: swing_01_swing_set_01_aaa_1 swing_seat_02
+    400068: swing_01_swing_set_01_aaa_1 swing_seat_connector_03
+    400070: swing_01_swing_set_01_aaa_1 swing_seat_connector_04
+    400072: swing_holder_01_swing_01 swing_set_01_aaa_1
+    400074: //RootNode
+    400076: swing_set_01_aaa_1_pCube1 swing_holder_01
+    400078: swing_set_01_aaa_1_swing_02 chain_link_01
+    400080: swing_set_01_aaa_1_swing_02 chain_link_010
+    400082: swing_set_01_aaa_1_swing_02 chain_link_011
+    400084: swing_set_01_aaa_1_swing_02 chain_link_012
+    400086: swing_set_01_aaa_1_swing_02 chain_link_013
+    400088: swing_set_01_aaa_1_swing_02 chain_link_014
+    400090: swing_set_01_aaa_1_swing_02 chain_link_015
+    400092: swing_set_01_aaa_1_swing_02 chain_link_016
+    400094: swing_set_01_aaa_1_swing_02 chain_link_017
+    400096: swing_set_01_aaa_1_swing_02 chain_link_018
+    400098: swing_set_01_aaa_1_swing_02 chain_link_019
+    400100: swing_set_01_aaa_1_swing_02 chain_link_02
+    400102: swing_set_01_aaa_1_swing_02 chain_link_020
+    400104: swing_set_01_aaa_1_swing_02 chain_link_021
+    400106: swing_set_01_aaa_1_swing_02 chain_link_022
+    400108: swing_set_01_aaa_1_swing_02 chain_link_023
+    400110: swing_set_01_aaa_1_swing_02 chain_link_024
+    400112: swing_set_01_aaa_1_swing_02 chain_link_025
+    400114: swing_set_01_aaa_1_swing_02 chain_link_026
+    400116: swing_set_01_aaa_1_swing_02 chain_link_027
+    400118: swing_set_01_aaa_1_swing_02 chain_link_028
+    400120: swing_set_01_aaa_1_swing_02 chain_link_029
+    400122: swing_set_01_aaa_1_swing_02 chain_link_03
+    400124: swing_set_01_aaa_1_swing_02 chain_link_030
+    400126: swing_set_01_aaa_1_swing_02 chain_link_031
+    400128: swing_set_01_aaa_1_swing_02 chain_link_032
+    400130: swing_set_01_aaa_1_swing_02 chain_link_04
+    400132: swing_set_01_aaa_1_swing_02 chain_link_05
+    400134: swing_set_01_aaa_1_swing_02 chain_link_06
+    400136: swing_set_01_aaa_1_swing_02 chain_link_07
+    400138: swing_set_01_aaa_1_swing_02 chain_link_08
+    400140: swing_set_01_aaa_1_swing_02 chain_link_09
+    400142: swing_set_01_aaa_1_swing_02 swing_holder_04
+    400144: swing_set_01_aaa_1_swing_02 swing_seat_01
+    400146: swing_set_01_aaa_1_swing_02 swing_seat_connector_01
+    400148: swing_set_01_aaa_1_swing_02 swing_seat_connector_02
+    400150: swing_set_01_aaa_1_swing_holder_01 swing_leg_01
+    400152: swing_set_01_aaa_1_swing_holder_01 swing_leg_02
+    400154: swing_set_01_aaa_1_swing_holder_01 swing_leg_03
+    400156: swing_set_01_aaa_1_swing_holder_01 swing_leg_04
+    400158: swing_set_01_aaa_1_swing_holder_03 swing_02
+    2300000: swing_01_swing_set_01_aaa_1 chain_link_033
+    2300002: swing_01_swing_set_01_aaa_1 chain_link_034
+    2300004: swing_01_swing_set_01_aaa_1 chain_link_035
+    2300006: swing_01_swing_set_01_aaa_1 chain_link_036
+    2300008: swing_01_swing_set_01_aaa_1 chain_link_037
+    2300010: swing_01_swing_set_01_aaa_1 chain_link_038
+    2300012: swing_01_swing_set_01_aaa_1 chain_link_039
+    2300014: swing_01_swing_set_01_aaa_1 chain_link_040
+    2300016: swing_01_swing_set_01_aaa_1 chain_link_041
+    2300018: swing_01_swing_set_01_aaa_1 chain_link_042
+    2300020: swing_01_swing_set_01_aaa_1 chain_link_043
+    2300022: swing_01_swing_set_01_aaa_1 chain_link_044
+    2300024: swing_01_swing_set_01_aaa_1 chain_link_045
+    2300026: swing_01_swing_set_01_aaa_1 chain_link_046
+    2300028: swing_01_swing_set_01_aaa_1 chain_link_047
+    2300030: swing_01_swing_set_01_aaa_1 chain_link_048
+    2300032: swing_01_swing_set_01_aaa_1 chain_link_049
+    2300034: swing_01_swing_set_01_aaa_1 chain_link_050
+    2300036: swing_01_swing_set_01_aaa_1 chain_link_051
+    2300038: swing_01_swing_set_01_aaa_1 chain_link_052
+    2300040: swing_01_swing_set_01_aaa_1 chain_link_053
+    2300042: swing_01_swing_set_01_aaa_1 chain_link_054
+    2300044: swing_01_swing_set_01_aaa_1 chain_link_055
+    2300046: swing_01_swing_set_01_aaa_1 chain_link_056
+    2300048: swing_01_swing_set_01_aaa_1 chain_link_057
+    2300050: swing_01_swing_set_01_aaa_1 chain_link_058
+    2300052: swing_01_swing_set_01_aaa_1 chain_link_059
+    2300054: swing_01_swing_set_01_aaa_1 chain_link_060
+    2300056: swing_01_swing_set_01_aaa_1 chain_link_061
+    2300058: swing_01_swing_set_01_aaa_1 chain_link_062
+    2300060: swing_01_swing_set_01_aaa_1 chain_link_063
+    2300062: swing_01_swing_set_01_aaa_1 chain_link_064
+    2300064: swing_01_swing_set_01_aaa_1 swing_holder_02
+    2300066: swing_01_swing_set_01_aaa_1 swing_seat_02
+    2300068: swing_01_swing_set_01_aaa_1 swing_seat_connector_03
+    2300070: swing_01_swing_set_01_aaa_1 swing_seat_connector_04
+    2300072: swing_holder_01_swing_01 swing_set_01_aaa_1
+    2300074: swing_set_01_aaa_1_pCube1 swing_holder_01
+    2300076: swing_set_01_aaa_1_swing_02 chain_link_01
+    2300078: swing_set_01_aaa_1_swing_02 chain_link_010
+    2300080: swing_set_01_aaa_1_swing_02 chain_link_011
+    2300082: swing_set_01_aaa_1_swing_02 chain_link_012
+    2300084: swing_set_01_aaa_1_swing_02 chain_link_013
+    2300086: swing_set_01_aaa_1_swing_02 chain_link_014
+    2300088: swing_set_01_aaa_1_swing_02 chain_link_015
+    2300090: swing_set_01_aaa_1_swing_02 chain_link_016
+    2300092: swing_set_01_aaa_1_swing_02 chain_link_017
+    2300094: swing_set_01_aaa_1_swing_02 chain_link_018
+    2300096: swing_set_01_aaa_1_swing_02 chain_link_019
+    2300098: swing_set_01_aaa_1_swing_02 chain_link_02
+    2300100: swing_set_01_aaa_1_swing_02 chain_link_020
+    2300102: swing_set_01_aaa_1_swing_02 chain_link_021
+    2300104: swing_set_01_aaa_1_swing_02 chain_link_022
+    2300106: swing_set_01_aaa_1_swing_02 chain_link_023
+    2300108: swing_set_01_aaa_1_swing_02 chain_link_024
+    2300110: swing_set_01_aaa_1_swing_02 chain_link_025
+    2300112: swing_set_01_aaa_1_swing_02 chain_link_026
+    2300114: swing_set_01_aaa_1_swing_02 chain_link_027
+    2300116: swing_set_01_aaa_1_swing_02 chain_link_028
+    2300118: swing_set_01_aaa_1_swing_02 chain_link_029
+    2300120: swing_set_01_aaa_1_swing_02 chain_link_03
+    2300122: swing_set_01_aaa_1_swing_02 chain_link_030
+    2300124: swing_set_01_aaa_1_swing_02 chain_link_031
+    2300126: swing_set_01_aaa_1_swing_02 chain_link_032
+    2300128: swing_set_01_aaa_1_swing_02 chain_link_04
+    2300130: swing_set_01_aaa_1_swing_02 chain_link_05
+    2300132: swing_set_01_aaa_1_swing_02 chain_link_06
+    2300134: swing_set_01_aaa_1_swing_02 chain_link_07
+    2300136: swing_set_01_aaa_1_swing_02 chain_link_08
+    2300138: swing_set_01_aaa_1_swing_02 chain_link_09
+    2300140: swing_set_01_aaa_1_swing_02 swing_holder_04
+    2300142: swing_set_01_aaa_1_swing_02 swing_seat_01
+    2300144: swing_set_01_aaa_1_swing_02 swing_seat_connector_01
+    2300146: swing_set_01_aaa_1_swing_02 swing_seat_connector_02
+    2300148: swing_set_01_aaa_1_swing_holder_01 swing_leg_01
+    2300150: swing_set_01_aaa_1_swing_holder_01 swing_leg_02
+    2300152: swing_set_01_aaa_1_swing_holder_01 swing_leg_03
+    2300154: swing_set_01_aaa_1_swing_holder_01 swing_leg_04
+    2300156: swing_set_01_aaa_1_swing_holder_03 swing_02
+    3300000: swing_01_swing_set_01_aaa_1 chain_link_033
+    3300002: swing_01_swing_set_01_aaa_1 chain_link_034
+    3300004: swing_01_swing_set_01_aaa_1 chain_link_035
+    3300006: swing_01_swing_set_01_aaa_1 chain_link_036
+    3300008: swing_01_swing_set_01_aaa_1 chain_link_037
+    3300010: swing_01_swing_set_01_aaa_1 chain_link_038
+    3300012: swing_01_swing_set_01_aaa_1 chain_link_039
+    3300014: swing_01_swing_set_01_aaa_1 chain_link_040
+    3300016: swing_01_swing_set_01_aaa_1 chain_link_041
+    3300018: swing_01_swing_set_01_aaa_1 chain_link_042
+    3300020: swing_01_swing_set_01_aaa_1 chain_link_043
+    3300022: swing_01_swing_set_01_aaa_1 chain_link_044
+    3300024: swing_01_swing_set_01_aaa_1 chain_link_045
+    3300026: swing_01_swing_set_01_aaa_1 chain_link_046
+    3300028: swing_01_swing_set_01_aaa_1 chain_link_047
+    3300030: swing_01_swing_set_01_aaa_1 chain_link_048
+    3300032: swing_01_swing_set_01_aaa_1 chain_link_049
+    3300034: swing_01_swing_set_01_aaa_1 chain_link_050
+    3300036: swing_01_swing_set_01_aaa_1 chain_link_051
+    3300038: swing_01_swing_set_01_aaa_1 chain_link_052
+    3300040: swing_01_swing_set_01_aaa_1 chain_link_053
+    3300042: swing_01_swing_set_01_aaa_1 chain_link_054
+    3300044: swing_01_swing_set_01_aaa_1 chain_link_055
+    3300046: swing_01_swing_set_01_aaa_1 chain_link_056
+    3300048: swing_01_swing_set_01_aaa_1 chain_link_057
+    3300050: swing_01_swing_set_01_aaa_1 chain_link_058
+    3300052: swing_01_swing_set_01_aaa_1 chain_link_059
+    3300054: swing_01_swing_set_01_aaa_1 chain_link_060
+    3300056: swing_01_swing_set_01_aaa_1 chain_link_061
+    3300058: swing_01_swing_set_01_aaa_1 chain_link_062
+    3300060: swing_01_swing_set_01_aaa_1 chain_link_063
+    3300062: swing_01_swing_set_01_aaa_1 chain_link_064
+    3300064: swing_01_swing_set_01_aaa_1 swing_holder_02
+    3300066: swing_01_swing_set_01_aaa_1 swing_seat_02
+    3300068: swing_01_swing_set_01_aaa_1 swing_seat_connector_03
+    3300070: swing_01_swing_set_01_aaa_1 swing_seat_connector_04
+    3300072: swing_holder_01_swing_01 swing_set_01_aaa_1
+    3300074: swing_set_01_aaa_1_pCube1 swing_holder_01
+    3300076: swing_set_01_aaa_1_swing_02 chain_link_01
+    3300078: swing_set_01_aaa_1_swing_02 chain_link_010
+    3300080: swing_set_01_aaa_1_swing_02 chain_link_011
+    3300082: swing_set_01_aaa_1_swing_02 chain_link_012
+    3300084: swing_set_01_aaa_1_swing_02 chain_link_013
+    3300086: swing_set_01_aaa_1_swing_02 chain_link_014
+    3300088: swing_set_01_aaa_1_swing_02 chain_link_015
+    3300090: swing_set_01_aaa_1_swing_02 chain_link_016
+    3300092: swing_set_01_aaa_1_swing_02 chain_link_017
+    3300094: swing_set_01_aaa_1_swing_02 chain_link_018
+    3300096: swing_set_01_aaa_1_swing_02 chain_link_019
+    3300098: swing_set_01_aaa_1_swing_02 chain_link_02
+    3300100: swing_set_01_aaa_1_swing_02 chain_link_020
+    3300102: swing_set_01_aaa_1_swing_02 chain_link_021
+    3300104: swing_set_01_aaa_1_swing_02 chain_link_022
+    3300106: swing_set_01_aaa_1_swing_02 chain_link_023
+    3300108: swing_set_01_aaa_1_swing_02 chain_link_024
+    3300110: swing_set_01_aaa_1_swing_02 chain_link_025
+    3300112: swing_set_01_aaa_1_swing_02 chain_link_026
+    3300114: swing_set_01_aaa_1_swing_02 chain_link_027
+    3300116: swing_set_01_aaa_1_swing_02 chain_link_028
+    3300118: swing_set_01_aaa_1_swing_02 chain_link_029
+    3300120: swing_set_01_aaa_1_swing_02 chain_link_03
+    3300122: swing_set_01_aaa_1_swing_02 chain_link_030
+    3300124: swing_set_01_aaa_1_swing_02 chain_link_031
+    3300126: swing_set_01_aaa_1_swing_02 chain_link_032
+    3300128: swing_set_01_aaa_1_swing_02 chain_link_04
+    3300130: swing_set_01_aaa_1_swing_02 chain_link_05
+    3300132: swing_set_01_aaa_1_swing_02 chain_link_06
+    3300134: swing_set_01_aaa_1_swing_02 chain_link_07
+    3300136: swing_set_01_aaa_1_swing_02 chain_link_08
+    3300138: swing_set_01_aaa_1_swing_02 chain_link_09
+    3300140: swing_set_01_aaa_1_swing_02 swing_holder_04
+    3300142: swing_set_01_aaa_1_swing_02 swing_seat_01
+    3300144: swing_set_01_aaa_1_swing_02 swing_seat_connector_01
+    3300146: swing_set_01_aaa_1_swing_02 swing_seat_connector_02
+    3300148: swing_set_01_aaa_1_swing_holder_01 swing_leg_01
+    3300150: swing_set_01_aaa_1_swing_holder_01 swing_leg_02
+    3300152: swing_set_01_aaa_1_swing_holder_01 swing_leg_03
+    3300154: swing_set_01_aaa_1_swing_holder_01 swing_leg_04
+    3300156: swing_set_01_aaa_1_swing_holder_03 swing_02
+    4300000: swing_01_swing_set_01_aaa_1 chain_link_033
+    4300002: swing_01_swing_set_01_aaa_1 chain_link_034
+    4300004: swing_01_swing_set_01_aaa_1 chain_link_035
+    4300006: swing_01_swing_set_01_aaa_1 chain_link_036
+    4300008: swing_01_swing_set_01_aaa_1 chain_link_037
+    4300010: swing_01_swing_set_01_aaa_1 chain_link_038
+    4300012: swing_01_swing_set_01_aaa_1 chain_link_039
+    4300014: swing_01_swing_set_01_aaa_1 chain_link_040
+    4300016: swing_01_swing_set_01_aaa_1 chain_link_041
+    4300018: swing_01_swing_set_01_aaa_1 chain_link_042
+    4300020: swing_01_swing_set_01_aaa_1 chain_link_043
+    4300022: swing_01_swing_set_01_aaa_1 chain_link_044
+    4300024: swing_01_swing_set_01_aaa_1 chain_link_045
+    4300026: swing_01_swing_set_01_aaa_1 chain_link_046
+    4300028: swing_01_swing_set_01_aaa_1 chain_link_047
+    4300030: swing_01_swing_set_01_aaa_1 chain_link_048
+    4300032: swing_01_swing_set_01_aaa_1 chain_link_049
+    4300034: swing_01_swing_set_01_aaa_1 chain_link_050
+    4300036: swing_01_swing_set_01_aaa_1 chain_link_051
+    4300038: swing_01_swing_set_01_aaa_1 chain_link_052
+    4300040: swing_01_swing_set_01_aaa_1 chain_link_053
+    4300042: swing_01_swing_set_01_aaa_1 chain_link_054
+    4300044: swing_01_swing_set_01_aaa_1 chain_link_055
+    4300046: swing_01_swing_set_01_aaa_1 chain_link_056
+    4300048: swing_01_swing_set_01_aaa_1 chain_link_057
+    4300050: swing_01_swing_set_01_aaa_1 chain_link_058
+    4300052: swing_01_swing_set_01_aaa_1 chain_link_059
+    4300054: swing_01_swing_set_01_aaa_1 chain_link_060
+    4300056: swing_01_swing_set_01_aaa_1 chain_link_061
+    4300058: swing_01_swing_set_01_aaa_1 chain_link_062
+    4300060: swing_01_swing_set_01_aaa_1 chain_link_063
+    4300062: swing_01_swing_set_01_aaa_1 chain_link_064
+    4300064: swing_01_swing_set_01_aaa_1 swing_holder_02
+    4300066: swing_01_swing_set_01_aaa_1 swing_seat_02
+    4300068: swing_01_swing_set_01_aaa_1 swing_seat_connector_03
+    4300070: swing_01_swing_set_01_aaa_1 swing_seat_connector_04
+    4300072: swing_holder_01_swing_01 swing_set_01_aaa_1
+    4300074: swing_set_01_aaa_1_pCube1 swing_holder_01
+    4300076: swing_set_01_aaa_1_swing_02 chain_link_01
+    4300078: swing_set_01_aaa_1_swing_02 chain_link_010
+    4300080: swing_set_01_aaa_1_swing_02 chain_link_011
+    4300082: swing_set_01_aaa_1_swing_02 chain_link_012
+    4300084: swing_set_01_aaa_1_swing_02 chain_link_013
+    4300086: swing_set_01_aaa_1_swing_02 chain_link_014
+    4300088: swing_set_01_aaa_1_swing_02 chain_link_015
+    4300090: swing_set_01_aaa_1_swing_02 chain_link_016
+    4300092: swing_set_01_aaa_1_swing_02 chain_link_017
+    4300094: swing_set_01_aaa_1_swing_02 chain_link_018
+    4300096: swing_set_01_aaa_1_swing_02 chain_link_019
+    4300098: swing_set_01_aaa_1_swing_02 chain_link_02
+    4300100: swing_set_01_aaa_1_swing_02 chain_link_020
+    4300102: swing_set_01_aaa_1_swing_02 chain_link_021
+    4300104: swing_set_01_aaa_1_swing_02 chain_link_022
+    4300106: swing_set_01_aaa_1_swing_02 chain_link_023
+    4300108: swing_set_01_aaa_1_swing_02 chain_link_024
+    4300110: swing_set_01_aaa_1_swing_02 chain_link_025
+    4300112: swing_set_01_aaa_1_swing_02 chain_link_026
+    4300114: swing_set_01_aaa_1_swing_02 chain_link_027
+    4300116: swing_set_01_aaa_1_swing_02 chain_link_028
+    4300118: swing_set_01_aaa_1_swing_02 chain_link_029
+    4300120: swing_set_01_aaa_1_swing_02 chain_link_03
+    4300122: swing_set_01_aaa_1_swing_02 chain_link_030
+    4300124: swing_set_01_aaa_1_swing_02 chain_link_031
+    4300126: swing_set_01_aaa_1_swing_02 chain_link_032
+    4300128: swing_set_01_aaa_1_swing_02 chain_link_04
+    4300130: swing_set_01_aaa_1_swing_02 chain_link_05
+    4300132: swing_set_01_aaa_1_swing_02 chain_link_06
+    4300134: swing_set_01_aaa_1_swing_02 chain_link_07
+    4300136: swing_set_01_aaa_1_swing_02 chain_link_08
+    4300138: swing_set_01_aaa_1_swing_02 chain_link_09
+    4300140: swing_set_01_aaa_1_swing_02 swing_holder_04
+    4300142: swing_set_01_aaa_1_swing_02 swing_seat_01
+    4300144: swing_set_01_aaa_1_swing_02 swing_seat_connector_01
+    4300146: swing_set_01_aaa_1_swing_02 swing_seat_connector_02
+    4300148: swing_set_01_aaa_1_swing_holder_01 swing_leg_01
+    4300150: swing_set_01_aaa_1_swing_holder_01 swing_leg_02
+    4300152: swing_set_01_aaa_1_swing_holder_01 swing_leg_03
+    4300154: swing_set_01_aaa_1_swing_holder_01 swing_leg_04
+    4300156: swing_set_01_aaa_1_swing_holder_03 swing_02
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

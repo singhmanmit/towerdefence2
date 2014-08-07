@@ -6,8 +6,7 @@ public class TowerNode_Script : MonoBehaviour {
 
 	public GameObject CurrentTower;
 	public List<GameObject> StartTowers;
-	bool IsOccupied;
-	
+	public bool IsOccupied;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +25,7 @@ public class TowerNode_Script : MonoBehaviour {
 	public void CreateTower(int index){
 		if (CurrentTower == null){
 			CurrentTower = Instantiate(StartTowers[index], transform.position, transform.rotation) as GameObject;
-			CurrentTower.transform.localScale = (transform.localScale/2);
+			IsOccupied = true;
 		}
 		else{
 			Debug.Log("Tower Node is Occupied");
@@ -36,6 +35,7 @@ public class TowerNode_Script : MonoBehaviour {
 
 	public void RemoveTower(){
 		Destroy(CurrentTower);
+		IsOccupied = false;
 	}
 	
 

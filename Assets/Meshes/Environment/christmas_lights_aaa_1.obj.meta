@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 1fd12f05f337a59478d919e34cc98d9f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lights_cord_01_christmas_lights_aaa_1
+    100004: lights_cord_01_christmas_lights_aaa_1 light_01 lightbulb_01
+    100006: lights_cord_01_christmas_lights_aaa_1 light_02 lightbulb_04
+    100008: lights_cord_01_christmas_lights_aaa_1 light_03 lightbulb_03
+    100010: lights_cord_01_christmas_lights_aaa_1 light_04 lightbulb_02
+    100012: lights_cord_01_christmas_lights_aaa_1 light_05 lightbulb_01
+    100014: lights_cord_01_christmas_lights_aaa_1 light_06 lightbulb_01
+    100016: lights_cord_01_christmas_lights_aaa_1 light_07 lightbulb_01
+    100018: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_01
+    100020: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_02
+    100022: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_03
+    100024: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_04
+    100026: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_05
+    100028: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_06
+    100030: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_07
+    400000: //RootNode
+    400002: lights_cord_01_christmas_lights_aaa_1
+    400004: lights_cord_01_christmas_lights_aaa_1 light_01 lightbulb_01
+    400006: lights_cord_01_christmas_lights_aaa_1 light_02 lightbulb_04
+    400008: lights_cord_01_christmas_lights_aaa_1 light_03 lightbulb_03
+    400010: lights_cord_01_christmas_lights_aaa_1 light_04 lightbulb_02
+    400012: lights_cord_01_christmas_lights_aaa_1 light_05 lightbulb_01
+    400014: lights_cord_01_christmas_lights_aaa_1 light_06 lightbulb_01
+    400016: lights_cord_01_christmas_lights_aaa_1 light_07 lightbulb_01
+    400018: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_01
+    400020: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_02
+    400022: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_03
+    400024: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_04
+    400026: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_05
+    400028: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_06
+    400030: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_07
+    2300000: lights_cord_01_christmas_lights_aaa_1
+    2300002: lights_cord_01_christmas_lights_aaa_1 light_01 lightbulb_01
+    2300004: lights_cord_01_christmas_lights_aaa_1 light_02 lightbulb_04
+    2300006: lights_cord_01_christmas_lights_aaa_1 light_03 lightbulb_03
+    2300008: lights_cord_01_christmas_lights_aaa_1 light_04 lightbulb_02
+    2300010: lights_cord_01_christmas_lights_aaa_1 light_05 lightbulb_01
+    2300012: lights_cord_01_christmas_lights_aaa_1 light_06 lightbulb_01
+    2300014: lights_cord_01_christmas_lights_aaa_1 light_07 lightbulb_01
+    2300016: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_01
+    2300018: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_02
+    2300020: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_03
+    2300022: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_04
+    2300024: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_05
+    2300026: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_06
+    2300028: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_07
+    3300000: lights_cord_01_christmas_lights_aaa_1
+    3300002: lights_cord_01_christmas_lights_aaa_1 light_01 lightbulb_01
+    3300004: lights_cord_01_christmas_lights_aaa_1 light_02 lightbulb_04
+    3300006: lights_cord_01_christmas_lights_aaa_1 light_03 lightbulb_03
+    3300008: lights_cord_01_christmas_lights_aaa_1 light_04 lightbulb_02
+    3300010: lights_cord_01_christmas_lights_aaa_1 light_05 lightbulb_01
+    3300012: lights_cord_01_christmas_lights_aaa_1 light_06 lightbulb_01
+    3300014: lights_cord_01_christmas_lights_aaa_1 light_07 lightbulb_01
+    3300016: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_01
+    3300018: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_02
+    3300020: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_03
+    3300022: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_04
+    3300024: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_05
+    3300026: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_06
+    3300028: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_07
+    4300000: lights_cord_01_christmas_lights_aaa_1
+    4300002: lights_cord_01_christmas_lights_aaa_1 light_01 lightbulb_01
+    4300004: lights_cord_01_christmas_lights_aaa_1 light_02 lightbulb_04
+    4300006: lights_cord_01_christmas_lights_aaa_1 light_03 lightbulb_03
+    4300008: lights_cord_01_christmas_lights_aaa_1 light_04 lightbulb_02
+    4300010: lights_cord_01_christmas_lights_aaa_1 light_05 lightbulb_01
+    4300012: lights_cord_01_christmas_lights_aaa_1 light_06 lightbulb_01
+    4300014: lights_cord_01_christmas_lights_aaa_1 light_07 lightbulb_01
+    4300016: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_01
+    4300018: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_02
+    4300020: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_03
+    4300022: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_04
+    4300024: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_05
+    4300026: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_06
+    4300028: lights_cord_01_christmas_lights_aaa_1 lightcap_01 light_07
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0500000007
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

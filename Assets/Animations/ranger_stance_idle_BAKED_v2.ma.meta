@@ -1,0 +1,1208 @@
+fileFormatVersion: 2
+guid: 480843759ae5d429485a8535d24a9cbc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: antiGimbal_GRP
+    100002: BIND_GRP
+    100004: Clothes_Grp
+    100006: cluster10Handle
+    100008: cluster11Handle
+    100010: cluster12Handle
+    100012: cluster13Handle
+    100014: cluster14Handle
+    100016: cluster15Handle
+    100018: cluster1Handle
+    100020: cluster2Handle
+    100022: cluster3Handle
+    100024: cluster4Handle
+    100026: cluster5Handle
+    100028: cluster6Handle
+    100030: cluster7Handle
+    100032: cluster9Handle
+    100034: CTRL_GRP
+    100036: floor_CTRL
+    100038: floor_CTRLZero
+    100040: Glasses
+    100042: Hat
+    100044: head_2_driver
+    100046: head_2_jnt
+    100048: head_CTRL
+    100050: head_CTRLZero
+    100052: head_driver
+    100054: head_driver_cluster_GRP
+    100056: head_jnt
+    100058: head_upper_twist_MKR
+    100060: hip_driver
+    100062: hip_jnt
+    100064: hipsAttacher
+    100066: Holsters
+    100068: KEYFRAME_GRP
+    100070: kf_left_toe_ik_MKR
+    100072: kf_left_toe_poleVector_MKR
+    100074: kf_right_toe_ik_MKR
+    100076: L_holster
+    100078: left_ankle_fk_CTRL
+    100080: left_ankle_jnt
+    100082: left_arm_cluster_GRP
+    100084: left_arm_driver_curve
+    100086: left_arm_driver_ikHandle
+    100088: left_arm_fk_CTRL
+    100090: left_arm_fk_CTRL_ikHandle
+    100092: left_arm_fk_CTRLZero
+    100094: left_arm_ik_CTRL
+    100096: left_arm_ik_CTRLZero
+    100098: left_arm_ik_PRNT
+    100100: left_arm_roll_driver
+    100102: left_arm_roll_jnt
+    100104: left_ball_fk_CTRL
+    100106: left_ball_fk_CTRL_ikHandle
+    100108: left_ball_jnt
+    100110: left_ball_poleVector_MKR
+    100112: left_clav_cluster_GRP
+    100114: left_clav_fk_CTRL
+    100116: left_clav_fk_CTRLZero
+    100118: left_clav_jnt
+    100120: left_driver_attacher_GRP
+    100122: left_elbow_CTRL
+    100124: left_elbow_driver
+    100126: left_elbow_jnt
+    100128: left_hand_CTRL
+    100130: left_hand_jnt
+    100132: left_hip_a_driver
+    100134: left_hip_a_jnt
+    100136: left_hip_b_driver
+    100138: left_hip_b_jnt
+    100140: left_hip_c_driver
+    100142: left_hip_c_jnt
+    100144: left_hip_driver
+    100146: left_hip_jnt
+    100148: left_index_2_jnt
+    100150: left_index_3_jnt
+    100152: left_index_4_jnt
+    100154: left_index_5_jnt
+    100156: left_knee_driver_end
+    100158: left_knee_fk_CTRL
+    100160: left_knee_jnt
+    100162: left_leg_cluster_1_GRP
+    100164: left_leg_cluster_2_GRP
+    100166: left_leg_driver_curve
+    100168: left_leg_driver_ikHandle
+    100170: left_leg_fk_CTRL
+    100172: left_leg_fk_CTRL_ikHandle
+    100174: left_leg_fk_CTRLZero
+    100176: left_leg_ik_CTRL
+    100178: left_leg_ik_CTRLZero
+    100180: left_leg_poleVector_CTRL
+    100182: left_leg_poleVector_CTRL_Parent
+    100184: left_leg_poleVector_CTRLZero
+    100186: left_middle_2_jnt
+    100188: left_middle_3_jnt
+    100190: left_middle_4_jnt
+    100192: left_middle_5_jnt
+    100194: left_pinky_1_jnt
+    100196: left_pinky_2_jnt
+    100198: left_pinky_3_jnt
+    100200: left_pinky_4_jnt
+    100202: left_pinky_5_jnt
+    100204: Left_Prop_Arrows
+    100206: left_ring_2_jnt
+    100208: left_ring_3_jnt
+    100210: left_ring_4_jnt
+    100212: left_ring_5_jnt
+    100214: left_shoulder_a_driver
+    100216: left_shoulder_a_jnt
+    100218: left_shoulder_b_driver
+    100220: left_shoulder_b_jnt
+    100222: left_shoulder_c_driver
+    100224: left_shoulder_c_jnt
+    100226: left_thigh_roll_driver
+    100228: left_thigh_roll_jnt
+    100230: left_thumb_1_jnt
+    100232: left_thumb_2_jnt
+    100234: left_thumb_3_jnt
+    100236: left_thumb_4_jnt
+    100238: left_toe_fk_CTRL
+    100240: left_toe_fk_CTRL_ikHandle
+    100242: left_toe_jnt
+    100244: left_toePlane_CTRL
+    100246: left_toePlane_CTRLZero
+    100248: left_wrist_jnt
+    100250: left_wrist_roll_jnt
+    100252: lower_spine_cluster_GRP
+    100254: Main_Body
+    100256: mainNull
+    100258: MoveRotateScale
+    100260: neck_1_driver
+    100262: neck_1_jnt
+    100264: neck_CTRL
+    100266: neck_CTRLZero
+    100268: neck_driver_cluster_GRP
+    100270: neck_driver_curve
+    100272: neck_driver_ikHandle
+    100274: neck_GRP
+    100276: neck_upper_twist_MKR
+    100278: Prop_Arrows
+    100280: R_holster
+    100282: Ranger
+    100284: Ranger_Arrw
+    100286: //RootNode
+    100288: Ranger_Weap
+    100290: Ranger_Weap 1
+    100292: Ranger_Weap_Arrow
+    100294: right_ankle_fk_CTRL
+    100296: right_ankle_jnt
+    100298: right_arm_cluster_GRP
+    100300: right_arm_driver_curve
+    100302: right_arm_driver_ikHandle
+    100304: right_arm_fk_CTRL
+    100306: right_arm_fk_CTRL_ikHandle
+    100308: right_arm_fk_CTRLZero
+    100310: right_arm_ik_CTRL
+    100312: right_arm_ik_CTRLZero
+    100314: right_arm_ik_PRNT
+    100316: right_arm_poleVector_CTRL
+    100318: right_arm_poleVector_CTRL1
+    100320: right_arm_poleVector_CTRL1Zero
+    100322: right_arm_poleVector_CTRLZero
+    100324: right_arm_roll_driver
+    100326: right_arm_roll_jnt
+    100328: right_ball_fk_CTRL
+    100330: right_ball_fk_CTRL_ikHandle
+    100332: right_ball_jnt
+    100334: right_ball_poleVector_MKR
+    100336: right_clav_cluster_GRP
+    100338: right_clav_fk_CTRL
+    100340: right_clav_fk_CTRLZero
+    100342: right_clav_jnt
+    100344: right_driver_attacher_GRP
+    100346: right_elbow_driver
+    100348: right_elbow_fk_CTRL
+    100350: right_elbow_jnt
+    100352: right_hand_fk_CTRL
+    100354: right_hand_jnt
+    100356: right_hip_a_driver
+    100358: right_hip_a_jnt
+    100360: right_hip_b_driver
+    100362: right_hip_b_jnt
+    100364: right_hip_c_driver
+    100366: right_hip_c_jnt
+    100368: right_hip_driver
+    100370: right_hip_jnt
+    100372: right_index_2_jnt
+    100374: right_index_3_jnt
+    100376: right_index_4_jnt
+    100378: right_index_5_jnt
+    100380: right_knee_driver_end
+    100382: right_knee_fk_CTRL
+    100384: right_knee_jnt
+    100386: right_leg_cluster_2_GRP
+    100388: right_leg_cluster_2_GRP 1
+    100390: right_leg_driver_curve
+    100392: right_leg_driver_spline_ikHandle
+    100394: right_leg_fk_CTRL
+    100396: right_leg_fk_CTRL_ikHandle
+    100398: right_leg_fk_CTRLZero
+    100400: right_leg_ik_CTRL
+    100402: right_leg_ik_CTRLZero
+    100404: right_leg_poleVector_CTRL
+    100406: right_leg_poleVector_CTRL_Parent
+    100408: right_leg_poleVector_CTRLZero
+    100410: right_middle_2_jnt
+    100412: right_middle_3_jnt
+    100414: right_middle_4_jnt
+    100416: right_middle_5_jnt
+    100418: right_pinky_1_jnt
+    100420: right_pinky_2_jnt
+    100422: right_pinky_3_jnt
+    100424: right_pinky_4_jnt
+    100426: right_pinky_5_jnt
+    100428: Right_Prop_Arrows
+    100430: right_ring_2_jnt
+    100432: right_ring_3_jnt
+    100434: right_ring_4_jnt
+    100436: right_ring_5_jnt
+    100438: right_shoulder_a_driver
+    100440: right_shoulder_a_jnt
+    100442: right_shoulder_b_driver
+    100444: right_shoulder_b_jnt
+    100446: right_shoulder_c_driver
+    100448: right_shoulder_c_jnt
+    100450: right_thigh_roll_driver
+    100452: right_thigh_roll_jnt
+    100454: right_thumb_1_jnt
+    100456: right_thumb_2_jnt
+    100458: right_thumb_3_jnt
+    100460: right_thumb_4_jnt
+    100462: right_toe_fk_CTRL
+    100464: right_toe_fk_CTRL_ikHandle
+    100466: right_toe_jnt
+    100468: right_toe_poleVector_MKR
+    100470: right_toePlane_CTRL
+    100472: right_toePlane_CTRLZero
+    100474: right_wrist_jnt
+    100476: right_wrist_roll_jnt
+    100478: root_CTRL
+    100480: root_CTRLZero
+    100482: rootGimbal_CTRL
+    100484: rootGimbal_CTRLZero
+    100486: Shirt
+    100488: spine3Attacher
+    100490: spine_1_driver
+    100492: spine_1_fk_CTRL
+    100494: spine_1_fk_CTRLZero
+    100496: spine_1_jnt
+    100498: spine_2_driver
+    100500: spine_2_fk_CTRL
+    100502: spine_2_fk_CTRLZero
+    100504: spine_2_jnt
+    100506: spine_3_driver
+    100508: spine_3_jnt
+    100510: spine_driver_curve
+    100512: spine_driver_end
+    100514: spine_driver_ikHandle
+    100516: spine_lower_ik_CTRL
+    100518: spine_lower_ik_CTRLZero
+    100520: spine_mid_cluster_GRP
+    100522: spine_mid_ik_CTRL
+    100524: spine_mid_ik_CTRLZero
+    100526: spine_upper_cluster_GRP
+    100528: spine_upper_cluster_GRP 1
+    100530: spine_upper_ik_CTRL
+    100532: spine_upper_ik_CTRLZero
+    100534: spine_upper_mid_ik_CTRL
+    100536: spine_upper_mid_ik_CTRLZero
+    100538: spineControl_GRP
+    100540: toePlane_CTRL
+    100542: toePlane_CTRLZero
+    400000: antiGimbal_GRP
+    400002: BIND_GRP
+    400004: Clothes_Grp
+    400006: cluster10Handle
+    400008: cluster11Handle
+    400010: cluster12Handle
+    400012: cluster13Handle
+    400014: cluster14Handle
+    400016: cluster15Handle
+    400018: cluster1Handle
+    400020: cluster2Handle
+    400022: cluster3Handle
+    400024: cluster4Handle
+    400026: cluster5Handle
+    400028: cluster6Handle
+    400030: cluster7Handle
+    400032: cluster9Handle
+    400034: CTRL_GRP
+    400036: floor_CTRL
+    400038: floor_CTRLZero
+    400040: Glasses
+    400042: Hat
+    400044: head_2_driver
+    400046: head_2_jnt
+    400048: head_CTRL
+    400050: head_CTRLZero
+    400052: head_driver
+    400054: head_driver_cluster_GRP
+    400056: head_jnt
+    400058: head_upper_twist_MKR
+    400060: hip_driver
+    400062: hip_jnt
+    400064: hipsAttacher
+    400066: Holsters
+    400068: KEYFRAME_GRP
+    400070: kf_left_toe_ik_MKR
+    400072: kf_left_toe_poleVector_MKR
+    400074: kf_right_toe_ik_MKR
+    400076: L_holster
+    400078: left_ankle_fk_CTRL
+    400080: left_ankle_jnt
+    400082: left_arm_cluster_GRP
+    400084: left_arm_driver_curve
+    400086: left_arm_driver_ikHandle
+    400088: left_arm_fk_CTRL
+    400090: left_arm_fk_CTRL_ikHandle
+    400092: left_arm_fk_CTRLZero
+    400094: left_arm_ik_CTRL
+    400096: left_arm_ik_CTRLZero
+    400098: left_arm_ik_PRNT
+    400100: left_arm_roll_driver
+    400102: left_arm_roll_jnt
+    400104: left_ball_fk_CTRL
+    400106: left_ball_fk_CTRL_ikHandle
+    400108: left_ball_jnt
+    400110: left_ball_poleVector_MKR
+    400112: left_clav_cluster_GRP
+    400114: left_clav_fk_CTRL
+    400116: left_clav_fk_CTRLZero
+    400118: left_clav_jnt
+    400120: left_driver_attacher_GRP
+    400122: left_elbow_CTRL
+    400124: left_elbow_driver
+    400126: left_elbow_jnt
+    400128: left_hand_CTRL
+    400130: left_hand_jnt
+    400132: left_hip_a_driver
+    400134: left_hip_a_jnt
+    400136: left_hip_b_driver
+    400138: left_hip_b_jnt
+    400140: left_hip_c_driver
+    400142: left_hip_c_jnt
+    400144: left_hip_driver
+    400146: left_hip_jnt
+    400148: left_index_2_jnt
+    400150: left_index_3_jnt
+    400152: left_index_4_jnt
+    400154: left_index_5_jnt
+    400156: left_knee_driver_end
+    400158: left_knee_fk_CTRL
+    400160: left_knee_jnt
+    400162: left_leg_cluster_1_GRP
+    400164: left_leg_cluster_2_GRP
+    400166: left_leg_driver_curve
+    400168: left_leg_driver_ikHandle
+    400170: left_leg_fk_CTRL
+    400172: left_leg_fk_CTRL_ikHandle
+    400174: left_leg_fk_CTRLZero
+    400176: left_leg_ik_CTRL
+    400178: left_leg_ik_CTRLZero
+    400180: left_leg_poleVector_CTRL
+    400182: left_leg_poleVector_CTRL_Parent
+    400184: left_leg_poleVector_CTRLZero
+    400186: left_middle_2_jnt
+    400188: left_middle_3_jnt
+    400190: left_middle_4_jnt
+    400192: left_middle_5_jnt
+    400194: left_pinky_1_jnt
+    400196: left_pinky_2_jnt
+    400198: left_pinky_3_jnt
+    400200: left_pinky_4_jnt
+    400202: left_pinky_5_jnt
+    400204: Left_Prop_Arrows
+    400206: left_ring_2_jnt
+    400208: left_ring_3_jnt
+    400210: left_ring_4_jnt
+    400212: left_ring_5_jnt
+    400214: left_shoulder_a_driver
+    400216: left_shoulder_a_jnt
+    400218: left_shoulder_b_driver
+    400220: left_shoulder_b_jnt
+    400222: left_shoulder_c_driver
+    400224: left_shoulder_c_jnt
+    400226: left_thigh_roll_driver
+    400228: left_thigh_roll_jnt
+    400230: left_thumb_1_jnt
+    400232: left_thumb_2_jnt
+    400234: left_thumb_3_jnt
+    400236: left_thumb_4_jnt
+    400238: left_toe_fk_CTRL
+    400240: left_toe_fk_CTRL_ikHandle
+    400242: left_toe_jnt
+    400244: left_toePlane_CTRL
+    400246: left_toePlane_CTRLZero
+    400248: left_wrist_jnt
+    400250: left_wrist_roll_jnt
+    400252: lower_spine_cluster_GRP
+    400254: Main_Body
+    400256: mainNull
+    400258: MoveRotateScale
+    400260: neck_1_driver
+    400262: neck_1_jnt
+    400264: neck_CTRL
+    400266: neck_CTRLZero
+    400268: neck_driver_cluster_GRP
+    400270: neck_driver_curve
+    400272: neck_driver_ikHandle
+    400274: neck_GRP
+    400276: neck_upper_twist_MKR
+    400278: Prop_Arrows
+    400280: R_holster
+    400282: Ranger
+    400284: Ranger_Arrw
+    400286: //RootNode
+    400288: Ranger_Weap
+    400290: Ranger_Weap 1
+    400292: Ranger_Weap_Arrow
+    400294: right_ankle_fk_CTRL
+    400296: right_ankle_jnt
+    400298: right_arm_cluster_GRP
+    400300: right_arm_driver_curve
+    400302: right_arm_driver_ikHandle
+    400304: right_arm_fk_CTRL
+    400306: right_arm_fk_CTRL_ikHandle
+    400308: right_arm_fk_CTRLZero
+    400310: right_arm_ik_CTRL
+    400312: right_arm_ik_CTRLZero
+    400314: right_arm_ik_PRNT
+    400316: right_arm_poleVector_CTRL
+    400318: right_arm_poleVector_CTRL1
+    400320: right_arm_poleVector_CTRL1Zero
+    400322: right_arm_poleVector_CTRLZero
+    400324: right_arm_roll_driver
+    400326: right_arm_roll_jnt
+    400328: right_ball_fk_CTRL
+    400330: right_ball_fk_CTRL_ikHandle
+    400332: right_ball_jnt
+    400334: right_ball_poleVector_MKR
+    400336: right_clav_cluster_GRP
+    400338: right_clav_fk_CTRL
+    400340: right_clav_fk_CTRLZero
+    400342: right_clav_jnt
+    400344: right_driver_attacher_GRP
+    400346: right_elbow_driver
+    400348: right_elbow_fk_CTRL
+    400350: right_elbow_jnt
+    400352: right_hand_fk_CTRL
+    400354: right_hand_jnt
+    400356: right_hip_a_driver
+    400358: right_hip_a_jnt
+    400360: right_hip_b_driver
+    400362: right_hip_b_jnt
+    400364: right_hip_c_driver
+    400366: right_hip_c_jnt
+    400368: right_hip_driver
+    400370: right_hip_jnt
+    400372: right_index_2_jnt
+    400374: right_index_3_jnt
+    400376: right_index_4_jnt
+    400378: right_index_5_jnt
+    400380: right_knee_driver_end
+    400382: right_knee_fk_CTRL
+    400384: right_knee_jnt
+    400386: right_leg_cluster_2_GRP
+    400388: right_leg_cluster_2_GRP 1
+    400390: right_leg_driver_curve
+    400392: right_leg_driver_spline_ikHandle
+    400394: right_leg_fk_CTRL
+    400396: right_leg_fk_CTRL_ikHandle
+    400398: right_leg_fk_CTRLZero
+    400400: right_leg_ik_CTRL
+    400402: right_leg_ik_CTRLZero
+    400404: right_leg_poleVector_CTRL
+    400406: right_leg_poleVector_CTRL_Parent
+    400408: right_leg_poleVector_CTRLZero
+    400410: right_middle_2_jnt
+    400412: right_middle_3_jnt
+    400414: right_middle_4_jnt
+    400416: right_middle_5_jnt
+    400418: right_pinky_1_jnt
+    400420: right_pinky_2_jnt
+    400422: right_pinky_3_jnt
+    400424: right_pinky_4_jnt
+    400426: right_pinky_5_jnt
+    400428: Right_Prop_Arrows
+    400430: right_ring_2_jnt
+    400432: right_ring_3_jnt
+    400434: right_ring_4_jnt
+    400436: right_ring_5_jnt
+    400438: right_shoulder_a_driver
+    400440: right_shoulder_a_jnt
+    400442: right_shoulder_b_driver
+    400444: right_shoulder_b_jnt
+    400446: right_shoulder_c_driver
+    400448: right_shoulder_c_jnt
+    400450: right_thigh_roll_driver
+    400452: right_thigh_roll_jnt
+    400454: right_thumb_1_jnt
+    400456: right_thumb_2_jnt
+    400458: right_thumb_3_jnt
+    400460: right_thumb_4_jnt
+    400462: right_toe_fk_CTRL
+    400464: right_toe_fk_CTRL_ikHandle
+    400466: right_toe_jnt
+    400468: right_toe_poleVector_MKR
+    400470: right_toePlane_CTRL
+    400472: right_toePlane_CTRLZero
+    400474: right_wrist_jnt
+    400476: right_wrist_roll_jnt
+    400478: root_CTRL
+    400480: root_CTRLZero
+    400482: rootGimbal_CTRL
+    400484: rootGimbal_CTRLZero
+    400486: Shirt
+    400488: spine3Attacher
+    400490: spine_1_driver
+    400492: spine_1_fk_CTRL
+    400494: spine_1_fk_CTRLZero
+    400496: spine_1_jnt
+    400498: spine_2_driver
+    400500: spine_2_fk_CTRL
+    400502: spine_2_fk_CTRLZero
+    400504: spine_2_jnt
+    400506: spine_3_driver
+    400508: spine_3_jnt
+    400510: spine_driver_curve
+    400512: spine_driver_end
+    400514: spine_driver_ikHandle
+    400516: spine_lower_ik_CTRL
+    400518: spine_lower_ik_CTRLZero
+    400520: spine_mid_cluster_GRP
+    400522: spine_mid_ik_CTRL
+    400524: spine_mid_ik_CTRLZero
+    400526: spine_upper_cluster_GRP
+    400528: spine_upper_cluster_GRP 1
+    400530: spine_upper_ik_CTRL
+    400532: spine_upper_ik_CTRLZero
+    400534: spine_upper_mid_ik_CTRL
+    400536: spine_upper_mid_ik_CTRLZero
+    400538: spineControl_GRP
+    400540: toePlane_CTRL
+    400542: toePlane_CTRLZero
+    2300000: Glasses
+    2300002: Hat
+    2300004: L_holster
+    2300006: Left_Prop_Arrows
+    2300008: R_holster
+    2300010: Ranger_Weap 1
+    2300012: Ranger_Weap_Arrow
+    2300014: Right_Prop_Arrows
+    2300016: Shirt
+    3300000: Glasses
+    3300002: Hat
+    3300004: L_holster
+    3300006: Left_Prop_Arrows
+    3300008: R_holster
+    3300010: Ranger_Weap 1
+    3300012: Ranger_Weap_Arrow
+    3300014: Right_Prop_Arrows
+    3300016: Shirt
+    4300000: Ranger_Weap_Arrow
+    4300002: Hat
+    4300004: Glasses
+    4300006: Shirt
+    4300008: L_holster
+    4300010: R_holster
+    4300012: Left_Prop_Arrows
+    4300014: Right_Prop_Arrows
+    4300016: Ranger_Weap
+    4300018: Main_Body
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Main_Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BIND_GRP
+        weight: 1
+      - path: BIND_GRP/hip_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt/left_hip_c_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt/left_hip_c_jnt/left_thigh_roll_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt/left_hip_c_jnt/left_thigh_roll_jnt/left_knee_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt/left_hip_c_jnt/left_thigh_roll_jnt/left_knee_jnt/left_ankle_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt/left_hip_c_jnt/left_thigh_roll_jnt/left_knee_jnt/left_ankle_jnt/left_ball_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/left_hip_jnt/left_hip_a_jnt/left_hip_b_jnt/left_hip_c_jnt/left_thigh_roll_jnt/left_knee_jnt/left_ankle_jnt/left_ball_jnt/left_toe_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt/right_hip_c_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt/right_hip_c_jnt/right_thigh_roll_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt/right_hip_c_jnt/right_thigh_roll_jnt/right_knee_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt/right_hip_c_jnt/right_thigh_roll_jnt/right_knee_jnt/right_ankle_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt/right_hip_c_jnt/right_thigh_roll_jnt/right_knee_jnt/right_ankle_jnt/right_ball_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/right_hip_jnt/right_hip_a_jnt/right_hip_b_jnt/right_hip_c_jnt/right_thigh_roll_jnt/right_knee_jnt/right_ankle_jnt/right_ball_jnt/right_toe_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_index_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_index_2_jnt/left_index_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_index_2_jnt/left_index_3_jnt/left_index_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_index_2_jnt/left_index_3_jnt/left_index_4_jnt/left_index_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_middle_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_middle_2_jnt/left_middle_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_middle_2_jnt/left_middle_3_jnt/left_middle_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_middle_2_jnt/left_middle_3_jnt/left_middle_4_jnt/left_middle_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_pinky_1_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_pinky_1_jnt/left_pinky_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_pinky_1_jnt/left_pinky_2_jnt/left_pinky_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_pinky_1_jnt/left_pinky_2_jnt/left_pinky_3_jnt/left_pinky_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_pinky_1_jnt/left_pinky_2_jnt/left_pinky_3_jnt/left_pinky_4_jnt/left_pinky_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_ring_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_ring_2_jnt/left_ring_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_ring_2_jnt/left_ring_3_jnt/left_ring_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_ring_2_jnt/left_ring_3_jnt/left_ring_4_jnt/left_ring_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_thumb_1_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_thumb_1_jnt/left_thumb_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_thumb_1_jnt/left_thumb_2_jnt/left_thumb_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/left_clav_jnt/left_shoulder_a_jnt/left_shoulder_b_jnt/left_shoulder_c_jnt/left_arm_roll_jnt/left_elbow_jnt/left_wrist_roll_jnt/left_wrist_jnt/left_hand_jnt/left_thumb_1_jnt/left_thumb_2_jnt/left_thumb_3_jnt/left_thumb_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/neck_1_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/neck_1_jnt/head_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/neck_1_jnt/head_jnt/head_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/Ranger_Weap_Arrow
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_index_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_index_2_jnt/right_index_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_index_2_jnt/right_index_3_jnt/right_index_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_index_2_jnt/right_index_3_jnt/right_index_4_jnt/right_index_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_middle_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_middle_2_jnt/right_middle_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_middle_2_jnt/right_middle_3_jnt/right_middle_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_middle_2_jnt/right_middle_3_jnt/right_middle_4_jnt/right_middle_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_pinky_1_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_pinky_1_jnt/right_pinky_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_pinky_1_jnt/right_pinky_2_jnt/right_pinky_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_pinky_1_jnt/right_pinky_2_jnt/right_pinky_3_jnt/right_pinky_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_pinky_1_jnt/right_pinky_2_jnt/right_pinky_3_jnt/right_pinky_4_jnt/right_pinky_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_ring_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_ring_2_jnt/right_ring_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_ring_2_jnt/right_ring_3_jnt/right_ring_4_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_ring_2_jnt/right_ring_3_jnt/right_ring_4_jnt/right_ring_5_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_thumb_1_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_thumb_1_jnt/right_thumb_2_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_thumb_1_jnt/right_thumb_2_jnt/right_thumb_3_jnt
+        weight: 1
+      - path: BIND_GRP/hip_jnt/spine_1_jnt/spine_2_jnt/spine_3_jnt/right_clav_jnt/right_shoulder_a_jnt/right_shoulder_b_jnt/right_shoulder_c_jnt/right_arm_roll_jnt/right_elbow_jnt/right_wrist_roll_jnt/right_wrist_jnt/right_hand_jnt/right_thumb_1_jnt/right_thumb_2_jnt/right_thumb_3_jnt/right_thumb_4_jnt
+        weight: 1
+      - path: KEYFRAME_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/left_arm_driver_curve
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/left_arm_driver_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/left_leg_driver_curve
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/left_leg_driver_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/right_arm_driver_curve
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/right_arm_driver_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/right_leg_driver_curve
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/antiGimbal_GRP/right_leg_driver_spline_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero/left_leg_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero/left_leg_ik_CTRL/kf_left_toe_ik_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero/left_leg_ik_CTRL/kf_left_toe_poleVector_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero/left_leg_ik_CTRL/left_ball_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero/left_leg_ik_CTRL/left_ball_poleVector_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_ik_CTRLZero/left_leg_ik_CTRL/left_leg_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_poleVector_CTRL_Parent
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_poleVector_CTRL_Parent/left_leg_poleVector_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/left_leg_poleVector_CTRL_Parent/left_leg_poleVector_CTRLZero/left_leg_poleVector_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero/right_leg_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero/right_leg_ik_CTRL/kf_right_toe_ik_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero/right_leg_ik_CTRL/right_ball_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero/right_leg_ik_CTRL/right_ball_poleVector_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero/right_leg_ik_CTRL/right_leg_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_ik_CTRLZero/right_leg_ik_CTRL/right_toe_poleVector_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_poleVector_CTRL_Parent
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_poleVector_CTRL_Parent/right_leg_poleVector_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/right_leg_poleVector_CTRL_Parent/right_leg_poleVector_CTRLZero/right_leg_poleVector_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL/left_toePlane_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL/left_toePlane_CTRLZero/left_toePlane_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL/left_toePlane_CTRLZero/left_toePlane_CTRL/left_toe_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL/right_toePlane_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL/right_toePlane_CTRLZero/right_toePlane_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/floor_CTRLZero/floor_CTRL/toePlane_CTRLZero/toePlane_CTRL/right_toePlane_CTRLZero/right_toePlane_CTRL/right_toe_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_hip_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_hip_driver/left_hip_a_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_hip_driver/left_hip_a_driver/left_hip_b_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_hip_driver/left_hip_a_driver/left_hip_b_driver/left_hip_c_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_hip_driver/left_hip_a_driver/left_hip_b_driver/left_hip_c_driver/left_knee_driver_end
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_hip_driver/left_hip_a_driver/left_hip_b_driver/left_hip_c_driver/left_thigh_roll_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_leg_cluster_1_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_driver_attacher_GRP/left_leg_cluster_1_GRP/cluster1Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL/left_knee_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL/left_knee_fk_CTRL/left_ankle_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL/left_knee_fk_CTRL/left_ankle_fk_CTRL/left_ball_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL/left_knee_fk_CTRL/left_ankle_fk_CTRL/left_ball_fk_CTRL/left_toe_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL/left_leg_cluster_2_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/left_leg_fk_CTRLZero/left_leg_fk_CTRL/left_leg_cluster_2_GRP/cluster2Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_hip_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_hip_driver/right_hip_a_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_hip_driver/right_hip_a_driver/right_hip_b_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_hip_driver/right_hip_a_driver/right_hip_b_driver/right_hip_c_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_hip_driver/right_hip_a_driver/right_hip_b_driver/right_hip_c_driver/right_thigh_roll_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_hip_driver/right_hip_a_driver/right_hip_b_driver/right_hip_c_driver/right_thigh_roll_driver/right_knee_driver_end
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_leg_cluster_2_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_driver_attacher_GRP/right_leg_cluster_2_GRP/cluster3Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL/right_knee_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL/right_knee_fk_CTRL/right_ankle_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL/right_knee_fk_CTRL/right_ankle_fk_CTRL/right_ball_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL/right_knee_fk_CTRL/right_ankle_fk_CTRL/right_ball_fk_CTRL/right_toe_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL/right_leg_cluster_2_GRP
+          1
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/hipsAttacher/right_leg_fk_CTRLZero/right_leg_fk_CTRL/right_leg_cluster_2_GRP
+          1/cluster4Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_fk_CTRLZero/left_arm_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_fk_CTRLZero/left_arm_fk_CTRL/left_arm_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_fk_CTRLZero/left_arm_fk_CTRL/left_arm_cluster_GRP/cluster12Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_fk_CTRLZero/left_arm_fk_CTRL/left_elbow_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_fk_CTRLZero/left_arm_fk_CTRL/left_elbow_CTRL/left_hand_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_ik_PRNT
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_ik_PRNT/left_arm_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_ik_PRNT/left_arm_ik_CTRLZero/left_arm_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_ik_PRNT/left_arm_ik_CTRLZero/left_arm_ik_CTRL/left_arm_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_ik_PRNT/right_arm_poleVector_CTRL1Zero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/left_arm_ik_PRNT/right_arm_poleVector_CTRL1Zero/right_arm_poleVector_CTRL1
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/head_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/head_CTRLZero/head_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/head_CTRLZero/head_CTRL/head_driver_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/head_CTRLZero/head_CTRL/head_driver_cluster_GRP/cluster14Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/head_CTRLZero/head_CTRL/head_upper_twist_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_1_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_1_driver/head_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_1_driver/head_driver/head_2_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_CTRLZero/neck_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_CTRLZero/neck_CTRL/neck_driver_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_CTRLZero/neck_CTRL/neck_driver_cluster_GRP/cluster13Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_CTRLZero/neck_CTRL/neck_upper_twist_MKR
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_driver_curve
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/neck_GRP/neck_driver_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_fk_CTRLZero/right_arm_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_fk_CTRLZero/right_arm_fk_CTRL/right_arm_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_fk_CTRLZero/right_arm_fk_CTRL/right_arm_cluster_GRP/cluster10Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_fk_CTRLZero/right_arm_fk_CTRL/right_elbow_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_fk_CTRLZero/right_arm_fk_CTRL/right_elbow_fk_CTRL/right_hand_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_ik_PRNT
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_ik_PRNT/right_arm_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_ik_PRNT/right_arm_ik_CTRLZero/right_arm_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_ik_PRNT/right_arm_ik_CTRLZero/right_arm_ik_CTRL/right_arm_fk_CTRL_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_ik_PRNT/right_arm_poleVector_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/right_arm_ik_PRNT/right_arm_poleVector_CTRLZero/right_arm_poleVector_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/root_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/root_CTRLZero/root_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/root_CTRLZero/root_CTRL/rootGimbal_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/root_CTRLZero/root_CTRL/rootGimbal_CTRLZero/rootGimbal_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_clav_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_clav_fk_CTRLZero/left_clav_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_clav_fk_CTRLZero/left_clav_fk_CTRL/left_clav_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_clav_fk_CTRLZero/left_clav_fk_CTRL/left_clav_cluster_GRP/cluster11Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_shoulder_a_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_shoulder_a_driver/left_shoulder_b_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_shoulder_a_driver/left_shoulder_b_driver/left_shoulder_c_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_shoulder_a_driver/left_shoulder_b_driver/left_shoulder_c_driver/left_arm_roll_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/left_shoulder_a_driver/left_shoulder_b_driver/left_shoulder_c_driver/left_arm_roll_driver/left_elbow_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_clav_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_clav_fk_CTRLZero/right_clav_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_clav_fk_CTRLZero/right_clav_fk_CTRL/right_clav_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_clav_fk_CTRLZero/right_clav_fk_CTRL/right_clav_cluster_GRP/cluster9Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_shoulder_a_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_shoulder_a_driver/right_shoulder_b_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_shoulder_a_driver/right_shoulder_b_driver/right_shoulder_c_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_shoulder_a_driver/right_shoulder_b_driver/right_shoulder_c_driver/right_arm_roll_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spine3Attacher/right_shoulder_a_driver/right_shoulder_b_driver/right_shoulder_c_driver/right_arm_roll_driver/right_elbow_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/hip_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/hip_driver/spine_1_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/hip_driver/spine_1_driver/spine_2_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/hip_driver/spine_1_driver/spine_2_driver/spine_3_driver
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/hip_driver/spine_1_driver/spine_2_driver/spine_3_driver/spine_driver_end
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_1_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_1_fk_CTRLZero/spine_1_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_2_fk_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_2_fk_CTRLZero/spine_2_fk_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_driver_curve
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_driver_ikHandle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_lower_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_lower_ik_CTRLZero/spine_lower_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_lower_ik_CTRLZero/spine_lower_ik_CTRL/lower_spine_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_lower_ik_CTRLZero/spine_lower_ik_CTRL/lower_spine_cluster_GRP/cluster5Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_mid_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_mid_ik_CTRLZero/spine_mid_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_mid_ik_CTRLZero/spine_mid_ik_CTRL/spine_mid_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_mid_ik_CTRLZero/spine_mid_ik_CTRL/spine_mid_cluster_GRP/cluster6Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_ik_CTRLZero/spine_upper_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_ik_CTRLZero/spine_upper_ik_CTRL/spine_upper_cluster_GRP
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_ik_CTRLZero/spine_upper_ik_CTRL/spine_upper_cluster_GRP/cluster15Handle
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_mid_ik_CTRLZero
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_mid_ik_CTRLZero/spine_upper_mid_ik_CTRL
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_mid_ik_CTRLZero/spine_upper_mid_ik_CTRL/spine_upper_cluster_GRP
+          1
+        weight: 1
+      - path: KEYFRAME_GRP/MoveRotateScale/mainNull/CTRL_GRP/spineControl_GRP/spine_upper_mid_ik_CTRLZero/spine_upper_mid_ik_CTRL/spine_upper_cluster_GRP
+          1/cluster7Handle
+        weight: 1
+      - path: Ranger
+        weight: 1
+      - path: Ranger/Clothes_Grp
+        weight: 1
+      - path: Ranger/Clothes_Grp/Glasses
+        weight: 1
+      - path: Ranger/Clothes_Grp/Hat
+        weight: 1
+      - path: Ranger/Clothes_Grp/Holsters
+        weight: 1
+      - path: Ranger/Clothes_Grp/Holsters/L_holster
+        weight: 1
+      - path: Ranger/Clothes_Grp/Holsters/R_holster
+        weight: 1
+      - path: Ranger/Clothes_Grp/Prop_Arrows
+        weight: 1
+      - path: Ranger/Clothes_Grp/Prop_Arrows/Left_Prop_Arrows
+        weight: 1
+      - path: Ranger/Clothes_Grp/Prop_Arrows/Right_Prop_Arrows
+        weight: 1
+      - path: Ranger/Clothes_Grp/Shirt
+        weight: 1
+      - path: Ranger/Main_Body
+        weight: 1
+      - path: Ranger/Ranger_Arrw
+        weight: 1
+      - path: Ranger/Ranger_Weap
+        weight: 1
+      - path: Ranger/Ranger_Weap/Ranger_Weap 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
