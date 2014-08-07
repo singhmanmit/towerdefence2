@@ -1,13 +1,21 @@
 while (1)
 {	
+<<<<<<< HEAD
 	if (`filetest -r "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/CommandPipe"`)
+=======
+	if (`filetest -r "/Users/jattboy408/Desktop/backyardheros/TowerDefence_2/Temp/CommandPipe"`)
+>>>>>>> d10c74651ba33972b6574daa8520b99ccf64f387
 	{
 		$exportNormals = 0;
 		$exportTangents = 0;
 		$bakeCommand = "";
 	
 		// Parse settings
+<<<<<<< HEAD
 		$waitpipe = `fopen "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/CommandPipe" "r"`;
+=======
+		$waitpipe = `fopen "/Users/jattboy408/Desktop/backyardheros/TowerDefence_2/Temp/CommandPipe" "r"`;
+>>>>>>> d10c74651ba33972b6574daa8520b99ccf64f387
 		$filename = `fgetline $waitpipe`;
 		
 		for ($i = 0; $i < 3; ++$i) 
@@ -136,16 +144,26 @@ while (1)
 				FBXExportShowUI -v false;
 
 				print "Before fbx export\n";
+<<<<<<< HEAD
 				FBXExport -f "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/ExportedFBXFile.fbx";
+=======
+				FBXExport -f "/Users/jattboy408/Desktop/backyardheros/TowerDefence_2/Temp/ExportedFBXFile.fbx";
+>>>>>>> d10c74651ba33972b6574daa8520b99ccf64f387
 				print "after fbx export\n";
 			}
 			else
 				print "Could not open Maya file.";
 
 			// TODO: We should use sysFile, so we don't have to have two separate mel scripts for OSX/Windows
+<<<<<<< HEAD
 			system ("rm \"/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/CommandPipe\"");
 
 			$donepipe = `fopen "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/SyncPipe" "w"`;
+=======
+			system ("rm \"/Users/jattboy408/Desktop/backyardheros/TowerDefence_2/Temp/CommandPipe\"");
+
+			$donepipe = `fopen "/Users/jattboy408/Desktop/backyardheros/TowerDefence_2/Temp/SyncPipe" "w"`;
+>>>>>>> d10c74651ba33972b6574daa8520b99ccf64f387
 			fwrite $donepipe "Done";
 			fclose $donepipe;
 			print "Finished maya loading and fbx conversion \n";
