@@ -1,0 +1,23 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Assets/Animations/ranger_stance_idle_BAKED_v2.ma"`)
+{		
+	file -o "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Assets/Animations/ranger_stance_idle_BAKED_v2.ma";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+
+system ("rm \"/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/CommandPipe\"");
+
+$donepipeKill = `fopen "/Volumes/Macintosh HD/Documents/Github/towerdefence2/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;

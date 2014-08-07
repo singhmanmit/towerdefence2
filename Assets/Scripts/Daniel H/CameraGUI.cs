@@ -13,9 +13,13 @@ public class CameraGUI : MonoBehaviour {
 	
 	GameObject Player;
 	Currency player;
+
+	public Texture2D crosshair;
 	
 	// Use this for initialization
 	void Start () {
+
+		Screen.showCursor = false;
 		Player = GameObject.FindGameObjectWithTag("Player");
 		player = Player.GetComponent<Currency>();
 	}
@@ -47,6 +51,9 @@ public class CameraGUI : MonoBehaviour {
 	//will need to edit size calculation when UI is finalized
 	//also edit naming system once towers are finalized, if needed
 	void OnGUI(){
+
+		GUI.DrawTexture(new Rect(Screen.width / 2 - 37.5f, Screen.height / 2 - 37.5f, 75, 75), crosshair);	// draws the crosshair
+
 		if (NODE == true) {
 			Pausegame = true;
 			//creates a menu based on size of buttons and number of towers in the list
