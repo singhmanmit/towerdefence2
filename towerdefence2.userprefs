@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Daniel H/CameraGUI.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Daniel H/CameraGUI.cs" Line="55" Column="79" />
+      <File FileName="../../Programming by AI/3400_02_codes/Assets/Space/Scripts/MouseCursor.cs" Line="33" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
