@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Daniel H\WaveList.cs" />
      <Compile Include="Assets\Scripts\Daniel H\WinScreenScript.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\Daniel Tay\CameraRay.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\Enemy2.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\EnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\EnemyHealthBar_2.cs" />
