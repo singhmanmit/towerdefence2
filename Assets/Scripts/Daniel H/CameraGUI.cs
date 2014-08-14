@@ -18,7 +18,6 @@ public class CameraGUI : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-
 		Screen.showCursor = false;
 		Player = GameObject.FindGameObjectWithTag("Player");
 		player = Player.GetComponent<Currency>();
@@ -29,9 +28,11 @@ public class CameraGUI : MonoBehaviour {
 		
 		if(Pausegame == true){
 			Time.timeScale = 0.0001f;
+			Screen.showCursor = true;
 		}
 		else{
 			Time.timeScale=1;
+			Screen.showCursor = false;
 		}
 		
 		if (Input.GetKeyDown("e") && NODE==false){
@@ -78,13 +79,30 @@ public class CameraGUI : MonoBehaviour {
 					}
 				}
 			}
+
+			if(NODE.IsOccupied==false){
+				GUI.enabled = false;	
+			}
+			else{
+				//GUI.enabled = true;
+			}
+			if (GUI.Button(new Rect(10, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 50), "Speed")){
+				
+			}
+			if (GUI.Button(new Rect(60, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 50), "Range")){
+				
+			}
+			if (GUI.Button(new Rect(110, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 50), "Power")){
+				
+			}
+
 			if(NODE.IsOccupied==false){
 				GUI.enabled = false;	
 			}
 			else{
 				GUI.enabled = true;
 			}
-			if (GUI.Button (new Rect (MenuPositionX+10, MenuPositionY+((NODE.StartTowers.Count+1)*30), 130, 20), "SellTower")) {
+			if (GUI.Button (new Rect (MenuPositionX+10, MenuPositionY+((NODE.StartTowers.Count+2)*30), 130, 20), "SellTower")) {
 				NODE.RemoveTower ();
 				player.MoneyHeld+=5;
 			}
