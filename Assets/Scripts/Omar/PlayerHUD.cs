@@ -25,18 +25,10 @@ public class PlayerHUD : MonoBehaviour {
 
 	void OnGUI()
 	{
-		GUI.Box(new Rect(80,Screen.height-630,160,120),btnTexture3, GUIStyle.none);// Lollipop power ups
-
-
-		GUI.Box(new Rect(100,Screen.height-670,250,40),btnTexture2, GUIStyle.none); // Crayon Health
-
-
-		GUI.Box(new Rect(20,Screen.height-700,160,120),btnTexture, GUIStyle.none); // how to remove border in button ""GUIStyle.none" 
+		GUI.Box(new Rect(80,70,160,120),btnTexture3, GUIStyle.none);// Lollipop power ups
+		GUI.Box(new Rect(100,50,250,40),btnTexture2, GUIStyle.none); // Crayon Health
+		GUI.Box(new Rect(20,0,160,120),btnTexture, GUIStyle.none); // how to remove border in button ""GUIStyle.none" 
 		//        ^^^^ (Pos X, pos Y, scale X, scale Y) ^^^^
-
-
-
-
 	}
 
 
