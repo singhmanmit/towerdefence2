@@ -27,7 +27,7 @@ public class MenuButtons : MonoBehaviour {
 	{
 		if (GUI.Button(new Rect(x, y, one, two), btnTexture, GUIStyle.none))
 		{
-			Application.LoadLevel("LEVEL_2_VER_1.0");
+			Application.LoadLevel("LEVEL_2_VER_1.1");
 		}
 	}
 

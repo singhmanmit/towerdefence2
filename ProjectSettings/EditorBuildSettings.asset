@@ -7,5 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/SplashScreen.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LEVEL_2_VER_1.0.unity
+  - enabled: 1
+    path: Assets/Scenes/LEVEL_2_VER_1.1.unity
