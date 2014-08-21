@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Daniel H\WaveList.cs" />
      <Compile Include="Assets\Scripts\Daniel H\WinScreenScript.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\Daniel Tay\CameraRay.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\Enemy2.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\EnemyHealthBar.cs" />
      <Compile Include="Assets\Scripts\Daniel Tay\EnemyHealthBar_2.cs" />
@@ -67,6 +68,7 @@
      <Compile Include="Assets\Scripts\Kaitlin\PickUp.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\RotatingPickUp.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\Shooting.cs" />
+     <Compile Include="Assets\Scripts\Mani\animations_script.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\CrossHair.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\EnemyTaging.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\Menu.cs" />
@@ -80,9 +82,12 @@
      <Compile Include="Assets\Scripts\Old Scripts\right.cs" />
      <Compile Include="Assets\Scripts\Omar\EnemyPath.cs" />
      <Compile Include="Assets\Scripts\Omar\Enemy_Spawn.cs" />
+     <Compile Include="Assets\Scripts\Omar\MenuButtons.cs" />
      <Compile Include="Assets\Scripts\Omar\MouseLook.cs" />
      <Compile Include="Assets\Scripts\Omar\NewMovement.cs" />
+     <Compile Include="Assets\Scripts\Omar\PlayerHUD.cs" />
      <Compile Include="Assets\Scripts\Omar\controller.cs" />
+     <None Include="Assets\clouds\material\shader\NewShader.shader" />
      <None Include="Assets\shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\shaders\Toony_Gooch_RimAlpha.shader" />
