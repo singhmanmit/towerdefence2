@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Kaitlin\PickUp.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\RotatingPickUp.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\Shooting.cs" />
+     <Compile Include="Assets\Scripts\Mani\animations_script.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\CrossHair.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\EnemyTaging.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\Menu.cs" />
@@ -81,8 +82,10 @@
      <Compile Include="Assets\Scripts\Old Scripts\right.cs" />
      <Compile Include="Assets\Scripts\Omar\EnemyPath.cs" />
      <Compile Include="Assets\Scripts\Omar\Enemy_Spawn.cs" />
+     <Compile Include="Assets\Scripts\Omar\MenuButtons.cs" />
      <Compile Include="Assets\Scripts\Omar\MouseLook.cs" />
      <Compile Include="Assets\Scripts\Omar\NewMovement.cs" />
+     <Compile Include="Assets\Scripts\Omar\PlayerHUD.cs" />
      <Compile Include="Assets\Scripts\Omar\controller.cs" />
      <None Include="Assets\shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
