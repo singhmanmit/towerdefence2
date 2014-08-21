@@ -69,7 +69,6 @@
      <Compile Include="Assets\Scripts\Kaitlin\Player_Health_Bar.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\RotatingPickUp.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\Shooting.cs" />
-     <Compile Include="Assets\Scripts\Kaitlin\Tower_Health_Bar.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\TreeHouse_Health_Bar.cs" />
      <Compile Include="Assets\Scripts\Mani\animations_script.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\CrossHair.cs" />
