@@ -33,7 +33,7 @@ public class Enemy_Spawn : MonoBehaviour {
 
 	//DH Section-----------------------------------
 	public int ActiveWaveTime = 130;
-	public int PassiveWaveTime = 40;
+	//public int PassiveWaveTime = 40;
 	public bool IsWaveActive=false;
 	float currentTimer;
 
@@ -61,7 +61,7 @@ public class Enemy_Spawn : MonoBehaviour {
 		// Dani End
 
 		//DH Section-------------
-		currentTimer = 5;
+		currentTimer = 0;
 		CurrentWave = 0;
 		//DH Section END---------
 	}
@@ -69,12 +69,11 @@ public class Enemy_Spawn : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Enemies = GameObject.FindGameObjectsWithTag("enemy");
-		//int spawn = Random.Range(0,150);
-		//timeSpawn += 1; //Unessecary -DH
-		//print(timeSpawn);
+
 		//Changed the spawn system to fit the wave system.
 		//The nested IF statements are to keep the indexes and timer correct.
 		//if the nested statements are too confusing and you need something changed, let me know. -DH
+
 		if (IsWaveActive==true){
 			if (currentTimer > 0){
 				if(pointsIndex < ListOfWaves.Waves[CurrentWave-1].SpawnPoints.Count){
@@ -88,9 +87,8 @@ public class Enemy_Spawn : MonoBehaviour {
 							//I also don't do the resources load method that you had because the correct enemy 
 							//is already in the nested lists. -DH
 							GameObject enemy = (GameObject)Instantiate((ListOfWaves.Waves[CurrentWave-1].SpawnPoints[pointsIndex].EnemiesToSpawn[mobIndex].Enemy),
-							                               ListOfWaves.Waves[CurrentWave-1].SpawnPoints[pointsIndex].Location.transform.position,
-							                               ListOfWaves.Waves[CurrentWave-1].SpawnPoints[pointsIndex].Location.transform.rotation);
-
+							                               				ListOfWaves.Waves[CurrentWave-1].SpawnPoints[pointsIndex].Location.transform.position,
+							                               				ListOfWaves.Waves[CurrentWave-1].SpawnPoints[pointsIndex].Location.transform.rotation);
 
 							// Dani Start
 							HealthBar other = enemy.gameObject.GetComponent<HealthBar>();
@@ -111,22 +109,25 @@ public class Enemy_Spawn : MonoBehaviour {
 				if((currentTimer>15) && (currentTimer<(ActiveWaveTime-5))){
 					if(Enemies.Length==0){
 						currentTimer=2;
-						Debug.Log("test2");
+						//Debug.Log("test2");
 					}
+				}
+				if(currentTimer<0){
+					currentTimer=0;
 				}
 			}
 			else{
-				currentTimer=PassiveWaveTime;
 				IsWaveActive=false;
 				pointsIndex = 0;
-				Debug.Log("test3");
+				//Debug.Log("test3");
 			}
 		}
-		else{
-			if(currentTimer>=0){
-				currentTimer-=Time.deltaTime;
-			}
-			else{
+	}
+
+	//WAVE GUI. -DH
+	void OnGUI(){
+		if(IsWaveActive==false){
+			if(GUI.Button (new Rect (300, 10, 130, 20), "Start Next Wave")){
 				if((CurrentWave+1) <= ListOfWaves.Waves.Count){
 					currentTimer=ActiveWaveTime;
 					IsWaveActive=true;
@@ -140,11 +141,12 @@ public class Enemy_Spawn : MonoBehaviour {
 				}
 			}
 		}
-	}
-
-	//WAVE GUI. -DH
-	void OnGUI(){
-		GUI.Box(new Rect(160,10,140,30),"Time Left: " + (int)(currentTimer));
+		if(IsWaveActive==true){
+			GUI.Box(new Rect(160,10,140,30),"Time Left: " + (int)(currentTimer));
+		}
+		else{
+			GUI.Box(new Rect(160,10,140,30),"No wave timer active");
+		}
 		if(IsWaveActive==true){
 			GUI.Box(new Rect(160,40,140,30),"Wave Is Active");
 		}
