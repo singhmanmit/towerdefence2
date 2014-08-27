@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Menu/Menu_2.unity
   - enabled: 0
     path: Assets/Scenes/Character_Selection.unity
@@ -15,3 +16,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1_Ver_2.3.unity
   - enabled: 1
     path: Assets/Scenes/Level1_Ver_2.6_test.unity
+=======
+    path: Assets/Scenes/SplashScreen.unity
+  - enabled: 0
+    path: Assets/Scenes/LEVEL_2_VER_1.0.unity
+  - enabled: 1
+    path: Assets/Scenes/LEVEL_2_VER_1.1.unity
+>>>>>>> origin/omar

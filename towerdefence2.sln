@@ -37,6 +37,7 @@ Global
 	EndGlobalSection
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 												GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																					GlobalSection(MonoDevelopProperties) = preSolution
@@ -44,6 +45,9 @@ Global
 =======
 																GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> 76251a659c844ee58d007c83eca787953b694b1d
+=======
+							GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/omar
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
