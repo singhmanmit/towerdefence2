@@ -41,8 +41,8 @@ public class CameraRay : MonoBehaviour {
 				Debug.Log("Ray hit a " + hit.transform.gameObject.tag);
 			}
 
-			cube.position = hit.point;
-			cube.rotation = Quaternion.LookRotation (hit.normal);
+			cube.transform.position = hit.point;
+			//cube.rotation = Quaternion.LookRotation (hit.normal);
 
 		}
 	}
