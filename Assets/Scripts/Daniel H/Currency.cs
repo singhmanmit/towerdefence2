@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Currency : MonoBehaviour {
@@ -24,7 +24,7 @@ public class Currency : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		GUI.Box(new Rect(1100,Screen.height-40,140,30),btnTexture,"Money: " + MoneyHeld);
+		GUI.Box(new Rect(10,Screen.height-40,140,30),"Money: " + MoneyHeld);
 	}
 
 	public void AddMoney(int amount){

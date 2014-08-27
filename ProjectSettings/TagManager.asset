@@ -9,7 +9,7 @@ TagManager:
   - enemy
   - tower
   - enemydamage
-  - 
+  - Level Parts
   - healthpickup
   - 
   Builtin Layer 0: Default
@@ -20,7 +20,7 @@ TagManager:
   Builtin Layer 5: 
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
+  User Layer 8: Game Parts
   User Layer 9: 
   User Layer 10: 
   User Layer 11: 

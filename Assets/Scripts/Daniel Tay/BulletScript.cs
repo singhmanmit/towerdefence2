@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BulletScript : MonoBehaviour {
 
-	public float damage = 1;
+	public float damage = 50;
 
 	// Update is called once per frame
 	void Update () {
@@ -16,7 +16,9 @@ public class BulletScript : MonoBehaviour {
 		
 		if (other.gameObject.tag == "enemy") 
 		{
+			other.SendMessage("TakeDamage", damage, SendMessageOptions.DontRequireReceiver);
 			Destroy(gameObject);
 		}
 	}
+
 }

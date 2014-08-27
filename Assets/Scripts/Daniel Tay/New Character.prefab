@@ -360,6 +360,7 @@ MonoBehaviour:
   NODE: {fileID: 0}
   MenuPositionX: 10
   MenuPositionY: 10
+  crosshair: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1

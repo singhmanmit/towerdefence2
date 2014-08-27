@@ -7,6 +7,8 @@ Project("{3C09B211-8AB8-21AA-5A04-E0F9146C3B09}") = "towerdefence2", "Assembly-C
 EndProject
 Project("{3C09B211-8AB8-21AA-5A04-E0F9146C3B09}") = "towerdefence2", "Assembly-UnityScript-firstpass.unityproj", "{BBFFFF0D-9788-4349-D2B3-217CF09703B9}"
 EndProject
+Project("{3C09B211-8AB8-21AA-5A04-E0F9146C3B09}") = "towerdefence2", "Assembly-UnityScript.unityproj", "{8DADEE3D-5511-5614-1071-36AAC55206A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,31 @@ Global
 		{BBFFFF0D-9788-4349-D2B3-217CF09703B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBFFFF0D-9788-4349-D2B3-217CF09703B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBFFFF0D-9788-4349-D2B3-217CF09703B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DADEE3D-5511-5614-1071-36AAC55206A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DADEE3D-5511-5614-1071-36AAC55206A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DADEE3D-5511-5614-1071-36AAC55206A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DADEE3D-5511-5614-1071-36AAC55206A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																		GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+												GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																					GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> e634d39ff6431dd567013942abce9d29205b199d
+=======
+																GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 76251a659c844ee58d007c83eca787953b694b1d
+=======
+							GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> origin/omar
+>>>>>>> origin/master
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

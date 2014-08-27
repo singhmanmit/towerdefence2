@@ -11,7 +11,7 @@ public class towerScript : MonoBehaviour {
 	 * */
 	
 	public float rotSpeed;
-	public Transform turretSpawn;	// Head of turret
+	public Transform towerHead;	// Head of turret
 	public Transform Spawnpoint;	// location of bullet instantiate
 	public GameObject bullet;
 	public float bulletSpeed = 200.0f;
@@ -73,9 +73,9 @@ public class towerScript : MonoBehaviour {
 				Quaternion targetRotation = Quaternion.LookRotation(relPos);
 				transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotSpeed);
 				
-				relPos2 = fEnemy.transform.position - turretSpawn.transform.position;
+				relPos2 = fEnemy.transform.position - towerHead.transform.position;
 				Quaternion targetRotation2 = Quaternion.LookRotation(relPos2);
-				turretSpawn.transform.rotation = Quaternion.Lerp(turretSpawn.transform.rotation, targetRotation2, Time.deltaTime * rotSpeed);
+				towerHead.rotation = Quaternion.Lerp(towerHead.transform.rotation, targetRotation2, Time.deltaTime * rotSpeed);
 
 				shootRate = shootRate * newShootRate;	// the shoot rate of the tower is multiplied by the level of the tower
 				Debug.Log(newShootRate);	
