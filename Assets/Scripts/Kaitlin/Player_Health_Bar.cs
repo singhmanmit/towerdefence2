@@ -40,4 +40,10 @@ public class Player_Health_Bar : MonoBehaviour
 			Graphics.DrawTexture(box, ColoringCrayon, mat);
 		}
 	}
+
+	void HealthPickUp(float addHealth)
+	{
+		player_Health += addHealth;
+	}
+
 }
