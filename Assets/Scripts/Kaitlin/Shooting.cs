@@ -6,6 +6,10 @@ public class Shooting : MonoBehaviour {
 	public float speed = 50.0f;
 	public float seconds;
 
+	public GameObject target;
+	private Vector3 relativePos;
+	private float rotSpeed = 150.0f;
+
 	GameObject Player;
 	CameraGUI player;
 	
@@ -21,6 +25,10 @@ public class Shooting : MonoBehaviour {
 	{
 		if (Input.GetMouseButtonDown(0))	//&& player.GetPauseState()==false
 		{
+			relativePos = target.transform.position - transform.position;
+			Quaternion targetRotation = Quaternion.LookRotation(relativePos);
+			transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotSpeed);
+
 			//print("WORKS"); //I commented this because it was filling the debuglog too much. DH
 			Rigidbody instantiatedProjectile = Instantiate(projectile, transform.position, transform.rotation)
 				as Rigidbody;

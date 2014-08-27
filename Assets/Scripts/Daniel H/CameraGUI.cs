@@ -53,12 +53,12 @@ public class CameraGUI : MonoBehaviour {
 	//also edit naming system once towers are finalized, if needed
 	void OnGUI(){
 
-		GUI.DrawTexture(new Rect(Screen.width / 2 - 37.5f, Screen.height / 2 - 37.5f, 75, 75), crosshair);	// draws the crosshair
+		GUI.DrawTexture(new Rect(Screen.width / 2 - 37.5f, Screen.height/2 - 37.5f, 75, 75), crosshair);	// draws the crosshair
 
 		if (NODE == true) {
 			Pausegame = true;
 			//creates a menu based on size of buttons and number of towers in the list
-			GUI.Box(new Rect(MenuPositionX,MenuPositionY, 150, (NODE.StartTowers.Count+2)*30), "TNode_TESTMENU");
+			GUI.Box(new Rect(MenuPositionX,MenuPositionY, 160, (NODE.StartTowers.Count+3)*30), "TNode_TESTMENU");
 			if(NODE.StartTowers.Count>0){
 				for(int i = 1; i<=NODE.StartTowers.Count; i++){
 					if(player.MoneyHeld<=10 || NODE.IsOccupied==true){
@@ -86,13 +86,13 @@ public class CameraGUI : MonoBehaviour {
 			else{
 				//GUI.enabled = true;
 			}
-			if (GUI.Button(new Rect(10, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 50), "Speed")){
+			if (GUI.Button(new Rect(MenuPositionX, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 20), "Speed")){
 				
 			}
-			if (GUI.Button(new Rect(60, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 50), "Range")){
+			if (GUI.Button(new Rect(MenuPositionX+50, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 20), "Range")){
 				
 			}
-			if (GUI.Button(new Rect(110, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 50), "Power")){
+			if (GUI.Button(new Rect(MenuPositionX+100, MenuPositionY+((NODE.StartTowers.Count+1)*30), 50, 20), "Power")){
 				
 			}
 
