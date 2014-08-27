@@ -7,45 +7,33 @@ public class animations_script : MonoBehaviour {
 		animation.wrapMode =WrapMode.Loop;
 		
 		animation["idle"].wrapMode=WrapMode.Clamp;
-		animation["walk"].wrapMode=WrapMode.Clamp;
-		
-	//	animation.Stop();
+		animation["r_strafe"].wrapMode=WrapMode.Clamp;
+		animation["l_strafe"].wrapMode=WrapMode.Clamp;
+		animation["jump"].wrapMode=WrapMode.Clamp;
+		animation["run"].wrapMode=WrapMode.Clamp;
+		animation["backwarks"].wrapMode=WrapMode.Clamp;
 	}
 	
 	void Update () {
+		 
 		animation.CrossFade("idle");
 		print("idle");
 		
-		if (Input.GetKey (KeyCode.RightArrow)|| Input.GetKey (KeyCode.LeftArrow))
-				animation.CrossFade ("walk");
-				print ("Moved Forward");
-
-		/*if (Input.GetButtonDown ("Horizontal"))
-				animation.CrossFade ("walk");
-				print ("Moved Forward");*/
-		
-		/*
-		if (Input.GetKey (KeyCode.LeftArrow)) 
-			animation.CrossFade("strafeLeft");
-		
-		if(Mathf.Abs(Input.GetAxis("Vertical")) > .1)
-			animation.CrossFade("sprint");
-		
-		if (Input.GetKey (KeyCode.Space)) 
-			animation.CrossFade("jump");
-		
-		if (Input.GetKey (KeyCode.DownArrow)) 
-			animation.CrossFade("crouch");
-		
-		if (Input.GetKey (KeyCode.DownArrow)&&Input.GetKey (KeyCode.UpArrow))
-			animation.CrossFade("crouchRun");
-		
-		if(Input.GetKey (KeyCode.RightArrow)&&Input.GetKey (KeyCode.DownArrow))
-			animation.CrossFade ("crouchStrafeRight");
-		
-		if(Input.GetKey (KeyCode.LeftArrow)&&Input.GetKey (KeyCode.DownArrow))
-			animation.CrossFade ("crouchStrafeLeft");
-			*/
+		if (Input.GetKey (KeyCode.A))
+			animation.CrossFade ("r_strafe");
+			print ("r_strafe");
+		if (Input.GetKey (KeyCode.D))
+			animation.CrossFade ("l_strafe");
+			print ("l_strafe");
+		if (Input.GetKey (KeyCode.W))
+			animation.CrossFade ("run");
+			print ("run");
+		if (Input.GetKey (KeyCode.S))
+			animation.CrossFade ("backward");
+			print ("backward");
+		if (Input.GetKey (KeyCode.Space))
+			animation.CrossFade ("jump");
+			print ("jump");
 
 	}
 }
