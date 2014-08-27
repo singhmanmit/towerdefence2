@@ -105,7 +105,11 @@
      <Compile Include="Assets\Scripts\Omar\NewMovement.cs" />
      <Compile Include="Assets\Scripts\Omar\PlayerHUD.cs" />
      <Compile Include="Assets\Scripts\Omar\controller.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\Scripts\Omar\soundEffectsPlayer.cs" />
+=======
      <None Include="Assets\clouds\material\shader\NewShader.shader" />
+>>>>>>> origin/master
      <None Include="Assets\shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\shaders\Toony_Gooch_RimAlpha.shader" />

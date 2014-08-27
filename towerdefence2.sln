@@ -36,6 +36,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 <<<<<<< HEAD
+																		GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 												GlobalSection(MonoDevelopProperties) = preSolution
@@ -48,6 +51,7 @@ Global
 =======
 							GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/omar
+>>>>>>> origin/master
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
