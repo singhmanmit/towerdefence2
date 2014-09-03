@@ -4,6 +4,6 @@ using System.Collections;
 public class BulletDestroy : MonoBehaviour {
 	void OnCollisionEnter()
 	{
-		Destroy(gameObject); 
+		Destroy(this.gameObject); 
 	}
 }

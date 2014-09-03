@@ -4,6 +4,7 @@ using System.Collections;
 public class PickUp : MonoBehaviour 
 {
 	public float health;
+	public AudioClip sound;
 
 	// Use this for initialization
 	void Start () 
@@ -19,13 +20,18 @@ public class PickUp : MonoBehaviour
 
 	void OnTriggerEnter(Collider collider)
 	{
+
+
 		if(collider.gameObject.tag == "Player")
 		{
 			if(this.gameObject.tag == "health")
 			{
+
+
 				collider.SendMessage("addHealth", health, SendMessageOptions.DontRequireReceiver);
 				Destroy(this.gameObject);
 				Debug.Log("You picked up health!");
+
 			}
 
 			if(this.gameObject.tag == "power")
