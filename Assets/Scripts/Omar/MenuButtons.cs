@@ -25,9 +25,9 @@ public class MenuButtons : MonoBehaviour {
 
 	void OnGUI()
 	{
-		if (GUI.Button(new Rect(x, y, one, two), btnTexture, GUIStyle.none))
+		if (GUI.Button(new Rect((Screen.width/ 2) - (one/2), (Screen.height / 2)+ two + 90, one, two), btnTexture, GUIStyle.none))
 		{
-			Application.LoadLevel("LEVEL_2_VER_1.1");
+			Application.LoadLevel("LEVEL_2_VER_2_0");
 		}
 	}
 
