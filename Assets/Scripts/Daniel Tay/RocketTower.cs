@@ -4,9 +4,9 @@ using System.Collections.Generic;
 public class RocketTower : MonoBehaviour {
 
 	public float rotSpeed;
-//	public Transform towerHead;	// Head of turret
-	public Transform Spawnpoint;	// location of bullet instantiate
-	public GameObject bullet;
+	public Transform Spawnpoint;
+	public Transform Spawnpoint2;// location of bullet instantiate
+	public GameObject missile;
 	public float bulletSpeed = 200.0f;
 	
 	// 3 values for Tower levels
@@ -74,12 +74,6 @@ public class RocketTower : MonoBehaviour {
 				Quaternion targetRotation = Quaternion.LookRotation(relPos);
 				transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * rotSpeed);
 				
-//				// relative position2 = position of enemy - position of the turret of tower
-//				relPos2 = fEnemy.transform.position - towerHead.transform.position;
-//				//Set target rotation and rotate turret of tower to enemy position
-//				Quaternion targetRotation2 = Quaternion.LookRotation(relPos2);
-//				towerHead.rotation = Quaternion.Lerp(towerHead.transform.rotation, targetRotation2, Time.deltaTime * rotSpeed);
-				
 				// the shoot rate of the tower is multiplied by the level of the tower
 				shootRate = shootRate * newShootRate;
 				//Debug.Log(newShootRate);	
@@ -91,10 +85,15 @@ public class RocketTower : MonoBehaviour {
 					power = power * newPower;	
 					
 					// make each instance of bullet contains the power value
-					GameObject bulletInstance =  Instantiate(bullet, Spawnpoint.position, Spawnpoint.rotation) as GameObject;
-					bulletInstance.GetComponent<BulletScript>().damage = power;
-					//bulletInstance.AddForce(Spawnpoint.forward * bulletSpeed);
-					bulletInstance.GetComponent<Rigidbody>().AddForce(Spawnpoint.forward * bulletSpeed);
+					GameObject missileInstance =  Instantiate(missile, Spawnpoint.position, Spawnpoint.rotation) as GameObject;
+					missileInstance.GetComponent<HomingMissile>().damage = power;
+					missileInstance.GetComponent<HomingMissile>().target = fEnemy;
+
+					// Second missile
+//					GameObject missileInstance2 =  Instantiate(missile, Spawnpoint2.position, Spawnpoint2.rotation) as GameObject;
+//					missileInstance2.GetComponent<HomingMissile>().damage = power;
+//					missileInstance2.GetComponent<HomingMissile>().target = fEnemy;
+					//missileInstance.GetComponent<Rigidbody>().AddForce(Spawnpoint.forward * bulletSpeed);
 					elapsedtime =0.0f;
 					
 					// power resets to original damage
