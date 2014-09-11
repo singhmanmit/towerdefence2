@@ -4,14 +4,10 @@ using System.Collections;
 public class HomingMissile : MonoBehaviour {
 
 	public GameObject target;
-	public float speed;
-
 	public float autoDestroyAfter;
-	public GameObject explosion;
-	
-	public float homingSensitivity = 0.1f;
-	private Vector3 relativePos;
 	public float damage ;
+	public int missileForce;
+	public float turn;
 
 	// Use this for initialization
 	void Start () {
@@ -23,14 +19,11 @@ public class HomingMissile : MonoBehaviour {
 	void Update () {
 	
 		if (target != null) {
-			relativePos = target.transform.position - transform.position;
-			//relativePos = target.position - transform.position;
-			Quaternion rotation = Quaternion.LookRotation(relativePos);
 
-			transform.rotation = Quaternion.Slerp(transform.rotation, rotation, homingSensitivity);
+			transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.position-transform.position), turn * Time.deltaTime);
+			transform.position += transform.forward * missileForce * Time.deltaTime;
 		}
 
-		transform.Translate (0, 0, speed * Time.deltaTime, Space.Self);
 	}
 
 	void OnTriggerEnter(Collider other) {
@@ -42,7 +35,6 @@ public class HomingMissile : MonoBehaviour {
 	}
 	
 	private void ExplodeSelf () {
-		Instantiate(explosion,transform.position,Quaternion.identity);
 		Destroy(gameObject);
 	}
 	

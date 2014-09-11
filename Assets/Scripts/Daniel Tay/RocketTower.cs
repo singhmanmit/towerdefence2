@@ -10,7 +10,8 @@ public class RocketTower : MonoBehaviour {
 	public float bulletSpeed = 200.0f;
 	
 	// 3 values for Tower levels
-	private float shootRate = 1.0f;
+	private float shootRate = 2.0f;
+	private float shootRate2;
 	private float range;
 	public float power = 1.0f;
 	
@@ -26,12 +27,16 @@ public class RocketTower : MonoBehaviour {
 	private int secondTag;
 	private GameObject fEnemy;
 	private Vector3 relPos;
-//	private Vector3 relPos2;
 	private int dictKey;
 	private float elapsedtime;
 	
 	private float number1;
-	
+
+	public void Start() {
+
+		shootRate2 = shootRate + 1;
+	}
+
 	public void RadiusOfCollider() {		// Call this fuction only when the range button is pressed
 		
 		newRange = gameObject.GetComponent<TowerLevels>().range;	// get the range value from
@@ -90,9 +95,10 @@ public class RocketTower : MonoBehaviour {
 					missileInstance.GetComponent<HomingMissile>().target = fEnemy;
 
 					// Second missile
-//					GameObject missileInstance2 =  Instantiate(missile, Spawnpoint2.position, Spawnpoint2.rotation) as GameObject;
-//					missileInstance2.GetComponent<HomingMissile>().damage = power;
-//					missileInstance2.GetComponent<HomingMissile>().target = fEnemy;
+//					yield return new WaitForSeconds(1);
+					GameObject missileInstance2 =  Instantiate(missile, Spawnpoint2.position, Spawnpoint2.rotation) as GameObject;
+					missileInstance2.GetComponent<HomingMissile>().damage = power;
+					missileInstance2.GetComponent<HomingMissile>().target = fEnemy;
 					//missileInstance.GetComponent<Rigidbody>().AddForce(Spawnpoint.forward * bulletSpeed);
 					elapsedtime =0.0f;
 					

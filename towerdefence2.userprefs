@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Volumes/2nd Drive/2nd Docs/Programming by AI/3400_02_codes/Assets/CloudPackage/shader/Blending.shader">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Daniel Tay/RocketTower.cs">
     <Files>
-      <File FileName="../../../../../Volumes/2nd Drive/2nd Docs/Programming by AI/3400_02_codes/Assets/CloudPackage/shader/Blending.shader" Line="26" Column="46" />
+      <File FileName="Assets/Scripts/Daniel Tay/HomingMissile.cs" Line="23" Column="24" />
+      <File FileName="Assets/Scripts/Daniel Tay/RocketTower.cs" Line="17" Column="36" />
+      <File FileName="Assets/Scripts/Daniel Tay/towerScript.cs" Line="82" Column="42" />
+      <File FileName="Assets/homing.js" Line="21" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
