@@ -8,7 +8,9 @@ public class soundEffectsPlayer : MonoBehaviour {
 
 	public AudioClip shoot;
 	public AudioClip jump;
-	public AudioClip hit;
+	public AudioClip steps;
+
+
 
 
 	// Use this for initialization
@@ -35,6 +37,13 @@ public class soundEffectsPlayer : MonoBehaviour {
 			audio.PlayOneShot(jump);
 			
 		}
+
+
+
+
+
+
+
 	
 	}
 
