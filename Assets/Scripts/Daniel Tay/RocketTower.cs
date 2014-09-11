@@ -10,7 +10,7 @@ public class RocketTower : MonoBehaviour {
 	public float bulletSpeed = 200.0f;
 	
 	// 3 values for Tower levels
-	private float shootRate = 2.0f;
+	private float shootRate = 1.0f;
 	private float shootRate2;
 	private float range;
 	public float power = 1.0f;
@@ -29,12 +29,13 @@ public class RocketTower : MonoBehaviour {
 	private Vector3 relPos;
 	private int dictKey;
 	private float elapsedtime;
+	private float elapsedtime2;
 	
 	private float number1;
 
 	public void Start() {
 
-		shootRate2 = shootRate + 1;
+		shootRate2 = shootRate + 0.1f;
 	}
 
 	public void RadiusOfCollider() {		// Call this fuction only when the range button is pressed
@@ -55,6 +56,7 @@ public class RocketTower : MonoBehaviour {
 		float newPower = gameObject.GetComponent<TowerLevels>().power;	// get damage value from
 		// Set the elapsed time wich will be used for the fire rate of the tower.
 		elapsedtime += Time.deltaTime;
+		elapsedtime2 += Time.deltaTime;
 		
 		// If the Dictionary has at least one enemy in it.
 		if (myDictonary.Count >=1) 
@@ -88,23 +90,24 @@ public class RocketTower : MonoBehaviour {
 				{	
 					// the power damage of bullet is the multiplication of the base power with the level power
 					power = power * newPower;	
-					
+
+
 					// make each instance of bullet contains the power value
-					GameObject missileInstance =  Instantiate(missile, Spawnpoint.position, Spawnpoint.rotation) as GameObject;
+					GameObject missileInstance = Instantiate(missile, Spawnpoint.position, Spawnpoint.rotation) as GameObject;
 					missileInstance.GetComponent<HomingMissile>().damage = power;
 					missileInstance.GetComponent<HomingMissile>().target = fEnemy;
-
-					// Second missile
-//					yield return new WaitForSeconds(1);
-					GameObject missileInstance2 =  Instantiate(missile, Spawnpoint2.position, Spawnpoint2.rotation) as GameObject;
-					missileInstance2.GetComponent<HomingMissile>().damage = power;
-					missileInstance2.GetComponent<HomingMissile>().target = fEnemy;
-					//missileInstance.GetComponent<Rigidbody>().AddForce(Spawnpoint.forward * bulletSpeed);
 					elapsedtime =0.0f;
-					
 					// power resets to original damage
 					power = basePower;
 				}
+				if (elapsedtime2 >= shootRate2)
+				{
+					GameObject missileInstance2 = Instantiate(missile, Spawnpoint2.position, Spawnpoint2.rotation) as GameObject;
+					missileInstance2.GetComponent<HomingMissile>().damage = power;
+					missileInstance2.GetComponent<HomingMissile>().target = fEnemy;
+					elapsedtime2 =0.0f;
+				}
+
 				shootRate = baseShootRate;	// shoot rate resets to original rate
 			}
 		}
@@ -116,7 +119,7 @@ public class RocketTower : MonoBehaviour {
 		if (other.gameObject.tag == "enemy") 
 		{
 			if (myDictonary.Count >= 0) 
-			{
+			{	
 				firstTag = other.gameObject.GetComponent<HealthBar>().tagNumber;	// Get tag from enemy
 				myDictonary.Add(firstTag, other.gameObject);				// Add Enemy into dictionary with tag #
 			}

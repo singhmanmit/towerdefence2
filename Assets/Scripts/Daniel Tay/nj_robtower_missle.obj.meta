@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: bcfd5ca4fb5de4ff78bc5272a2ac7eb7
+guid: 0374ffd00e34243b0a9497126b14ab1c
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: nj_robtower
-    100002: //RootNode
-    400000: nj_robtower
-    400002: //RootNode
-    2300000: nj_robtower
-    3300000: nj_robtower
-    4300000: nj_robtower
+    100000: //RootNode
+    100002: nj_robtower_missle_01
+    400000: //RootNode
+    400002: nj_robtower_missle_01
+    2300000: nj_robtower_missle_01
+    3300000: nj_robtower_missle_01
+    4300000: nj_robtower_missle_01
     9500000: //RootNode
   materials:
     importMaterials: 1
