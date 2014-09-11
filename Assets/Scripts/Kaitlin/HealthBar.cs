@@ -76,6 +76,16 @@ public class HealthBar : MonoBehaviour {
 			percentOfHp -= dmgPercent;
 		}
 
+		if(collision.gameObject.tag == "damageMissile")
+		{
+			// get damage value from bullet
+			dmg = collision.gameObject.GetComponent<HomingMissile>().damage;
+			HealthToPercentage();
+			// substract percentOfHp by the damage value
+			percentOfHp -= dmgPercent;
+		}
+
+
 		if(collision.gameObject.tag == "tower") {
 			
 			myList.Add(collision.gameObject);

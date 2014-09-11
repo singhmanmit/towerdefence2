@@ -14,8 +14,8 @@ GameObject:
   - 54: {fileID: 5400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Bullet
-  m_TagString: Untagged
+  m_Name: Missile
+  m_TagString: damageMissile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: .693204045, y: 0, z: 0, w: .720741451}
-  m_LocalPosition: {x: -.00042834878, y: 2.56026649, z: -5.59183025}
-  m_LocalScale: {x: .141136035, y: .141136035, z: .141136035}
+  m_LocalPosition: {x: -10.921524, y: 1.61777329, z: -21.86586}
+  m_LocalScale: {x: .560424745, y: 1.36642146, z: .560424745}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!23 &2300000
@@ -82,9 +82,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fd250a136a59475797232f0e408bcd7, type: 3}
+  m_Script: {fileID: 11500000, guid: 089681e04b2114e6485c13836833a9b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 50
+  autoDestroyAfter: 5
+  explosion: {fileID: 0}
+  homingSensitivity: .5
+  damage: 0
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -92,9 +98,9 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: .5
+  m_Radius: 9.39000034
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
