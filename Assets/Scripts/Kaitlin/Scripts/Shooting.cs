@@ -39,11 +39,11 @@ public class Shooting : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetMouseButtonDown(0))	//&& player.GetPauseState()==false
+		if (Input.GetMouseButton(0))	//&& player.GetPauseState()==false
 		{
 			if(shootFlag==0){
 				shootFlag=1;
-				StartCoroutine(WaitAndShoot(.2F));
+				StartCoroutine(WaitAndShoot(.25F));
 			}
 		}
 	}

@@ -11,7 +11,7 @@ public class animations_script : MonoBehaviour {
 		animation["l_strafe"].wrapMode=WrapMode.Clamp;
 		animation["jump"].wrapMode=WrapMode.Clamp;
 		animation["run"].wrapMode=WrapMode.Clamp;
-		animation["backwarks"].wrapMode=WrapMode.Clamp;
+		animation["backwark"].wrapMode=WrapMode.Clamp;
 		animation["shoot"].wrapMode=WrapMode.Clamp;
 	}
 	

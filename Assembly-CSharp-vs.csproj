@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\Kaitlin\Scripts\RotatingPickUp.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\Scripts\Shooting.cs" />
      <Compile Include="Assets\Scripts\Kaitlin\Scripts\TreeHouse_Health_Bar.cs" />
+     <Compile Include="Assets\Scripts\Mani\animation_bully.cs" />
      <Compile Include="Assets\Scripts\Mani\animations_script.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\CrossHair.cs" />
      <Compile Include="Assets\Scripts\Old Scripts\EnemyTaging.cs" />
@@ -96,7 +97,6 @@
      <Compile Include="Assets\Scripts\Omar\controller.cs" />
      <Compile Include="Assets\Scripts\Omar\fastAI.cs" />
      <Compile Include="Assets\Scripts\Omar\soundEffectsPlayer.cs" />
-     <Compile Include="Assets\animation_bully.cs" />
      <None Include="Assets\shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\shaders\Toony-Basic.shader" />
      <None Include="Assets\shaders\Unlit-AlphaTest.shader" />
