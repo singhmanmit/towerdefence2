@@ -35,7 +35,7 @@ public class CameraGUI : MonoBehaviour {
 			Screen.showCursor = false;
 		}
 		
-		if (Input.GetKeyDown("e") && NODE==false){
+		if (Input.GetKeyDown("e")&& NODE==false){
 			Debug.Log("raycast triggered" + ray.direction + "  " + ray.origin);
 			grabNode();
 		}
@@ -53,7 +53,7 @@ public class CameraGUI : MonoBehaviour {
 	//also edit naming system once towers are finalized, if needed
 	void OnGUI(){
 
-		GUI.DrawTexture(new Rect(Screen.width / 2 - 37.5f, Screen.height/2 - 37.5f, 75, 75), crosshair);	// draws the crosshair
+		//GUI.DrawTexture(new Rect(Screen.width / 2 - 37.5f, Screen.height/2 - 37.5f, 75, 75), crosshair);	// draws the crosshair
 
 		if (NODE == true) {
 			Pausegame = true;
